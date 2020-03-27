@@ -1011,21 +1011,21 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@nrwl/cli@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-9.1.2.tgz#2e15f833e354e59f59107362875ce40c882f49f3"
-  integrity sha512-DBRHQz2PcGc0nVL8r4dF0sOb9nMHWeB+5d95yMV5dt8c4h7s55VFIW2LI6IDsl4ImM90mr2ci5jCwLbE/Paj/A==
+"@nrwl/cli@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-9.1.4.tgz#eb4331eac65199f7666f2a0b911da6acc212385b"
+  integrity sha512-wwMO/skVuxM4CYnJUT/Y16k6+1lILRqP6/kSRz450x0up2u7gF2wp4V+vxglt8elY+FnWjnTCurPN/B6tmqN3Q==
   dependencies:
-    "@nrwl/tao" "9.1.2"
+    "@nrwl/tao" "9.1.4"
     chalk "2.4.2"
     tmp "0.0.33"
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
-"@nrwl/cypress@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-9.1.2.tgz#24b67c66833592a22590ca5a371f47a823207527"
-  integrity sha512-zCUWNi86KbPc9lvhC6wzmkIkL8ppwGKVOQhiEtRdm9+Z/+ZS4iwHXKBXZ1uWUgx9jMAmzvHcPpjmdwDcFIPv8Q==
+"@nrwl/cypress@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-9.1.4.tgz#fb043a71a1c8e1bb1bfe5b1a6d9889bfcd10d237"
+  integrity sha512-V/a3lWdb32gr1i3n/6MA7OpyRM9FYVHXD6922n5D99pCvAgiVAMiVnu5KDB9PVs5fRcVmlJVDwwGB9dCn2fVBw==
   dependencies:
     "@angular-devkit/architect" "~0.900.1"
     "@angular-devkit/core" "~9.0.1"
@@ -1036,33 +1036,33 @@
     tsconfig-paths-webpack-plugin "3.2.0"
     webpack-node-externals "1.7.2"
 
-"@nrwl/eslint-plugin-nx@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-9.1.2.tgz#011f1cfd8645114170ba81f5fa79c959397d133c"
-  integrity sha512-Ncv+5zcrI/koGCUOA5mtmm/piaYXFRbAi89e2Yj9FXEiJsuibGo/FYVXHcPbJRuhKhiyXkYbATLDn5wdMBg3uA==
+"@nrwl/eslint-plugin-nx@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-9.1.4.tgz#9da2b21b249134d1e483de400433b989581307eb"
+  integrity sha512-ZQEz6Xfwb+s0zJxVGQ6iCUARGMTmF51ZSnYj2/9nPs8PBSRmm4RMm73OpF+qaXoYka/VQCp2yHOMXFF270oYTA==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.19.2"
 
-"@nrwl/jest@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-9.1.2.tgz#5e8c1920712fb8e890b977b0fdeeb0f117f94f30"
-  integrity sha512-b/swIZax0YJXw1ChM0D+0FvetuVnc8O8yjwNQ6Sq4lGnXMBxL1i0kXJWq7u3XQn75tuma/nUl66h2xIlhbJvWw==
+"@nrwl/jest@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-9.1.4.tgz#9101e93ec4782841e0562c265a906c8f59772e96"
+  integrity sha512-OGd7K68/KeXm6DjBcDafnpiagPadA5j0mip6Gg/GokCrHqXmCbBK3JsxzoWGqxrGU0zJvjZvdlAYZGkWCwjt0g==
   dependencies:
     "@angular-devkit/architect" "~0.900.1"
     "@angular-devkit/core" "~9.0.1"
     "@angular-devkit/schematics" "~9.0.1"
 
-"@nrwl/linter@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-9.1.2.tgz#98583f7862646ed76cf1829b81bd72618b0eff8e"
-  integrity sha512-Bm56lG72NSPT6c4AwaosEjoWWiAJ83MMrsPpEvE6JG5up7aV4zT+OgVS86iQLQohm2x/D6eez8RR1go8HBYONA==
+"@nrwl/linter@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-9.1.4.tgz#12da935ebb2a706718cb11676f231275205788d8"
+  integrity sha512-Zc7nUKGK7QTYMRxRNh2GtrrHqibsOWR3hUkUdPbXoQkFLnC9VaKG+KY2YJksxjbsd5dkdqeDKvLsLcNX4a5hAA==
   dependencies:
     "@angular-devkit/architect" "~0.900.1"
 
-"@nrwl/tao@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-9.1.2.tgz#823b45def6b1d8dd005ff700a6e40b9fd970b445"
-  integrity sha512-mhzjocwLjVfTBCiIMQerdQCCdUP5FtWlGkX+XQ1H8Cn9a3OFXd/aHcE98sIFx7ghSArp5ZcuCWdFMmHO9vnsnQ==
+"@nrwl/tao@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-9.1.4.tgz#467c23e67999b98a1a207bec66da1f8ac3b0db24"
+  integrity sha512-OO1wbVuuRBKkcvLVvfl8CJNFTMI+EO3CwGJOX/wjhVjFlls6i3nTqUGeoiFNDuBnI+et5aWldr2v5Faw/NmbTA==
   dependencies:
     "@angular-devkit/architect" "~0.900.1"
     "@angular-devkit/core" "~9.0.1"
@@ -1072,10 +1072,10 @@
     minimist "^1.2.0"
     strip-json-comments "2.0.1"
 
-"@nrwl/web@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-9.1.2.tgz#0b4e51db9544a2851b697ff024da682e2665acdd"
-  integrity sha512-Fa3nJgKeadMdoeCkxo2TMZdjDGD5p4az1IdB0j1jnE9GZ9yF8hzLb+h66IyHWrtrFFQpbTT9pDGUcGFkJqXQUg==
+"@nrwl/web@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-9.1.4.tgz#6c1eccb7450b84c6b18a69067891cd52572054b8"
+  integrity sha512-76m82E8iudLOx4RblRGRMGr+iUUgu5O+JdyIQXWLlSchwwVHj8mP1pJacjpR7zCgPeTcCqSDb3L8SqIU59BVRw==
   dependencies:
     "@angular-devkit/architect" "~0.900.1"
     "@angular-devkit/build-optimizer" "~0.900.1"
@@ -1088,9 +1088,9 @@
     "@babel/plugin-transform-regenerator" "^7.8.3"
     "@babel/preset-env" "^7.8.4"
     "@babel/preset-typescript" "^7.8.3"
-    "@nrwl/cypress" "9.1.2"
-    "@nrwl/jest" "9.1.2"
-    "@nrwl/linter" "9.1.2"
+    "@nrwl/cypress" "9.1.4"
+    "@nrwl/jest" "9.1.4"
+    "@nrwl/linter" "9.1.4"
     "@rollup/plugin-commonjs" "11.0.2"
     "@rollup/plugin-image" "2.0.4"
     "@rollup/plugin-node-resolve" "7.1.1"
@@ -1108,7 +1108,6 @@
     copy-webpack-plugin "5.1.1"
     core-js "^3.2.1"
     css-loader "3.4.2"
-    css-modules-typescript-loader "4.0.0"
     file-loader "4.2.0"
     find-cache-dir "3.0.0"
     fork-ts-checker-webpack-plugin "^3.1.1"
@@ -1162,14 +1161,14 @@
     webpack-subresource-integrity "1.1.0-rc.6"
     worker-plugin "3.2.0"
 
-"@nrwl/workspace@9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-9.1.2.tgz#2e45a15d440296981023d7c4794b6937e27d9402"
-  integrity sha512-H9xxx6nwkB1+ZCImjpQhiaO3BQOgqcxTCqM3rYgbQyn0QVWkJtEgzOvnMg87Mev0gC4X2Io4pdJcSfXx5VKahg==
+"@nrwl/workspace@9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-9.1.4.tgz#6c2fe7aac2db86d59afb002e4956e97f9a1b751a"
+  integrity sha512-V2gGRKTpn733IBpV5e7G/rXgZBd0aqpWh1zK6r3hZQKbc6dpJAvd1BajkxTnGcO/FZwr07+luo/GM3cGX03flQ==
   dependencies:
     "@angular-devkit/core" "~9.0.1"
     "@angular-devkit/schematics" "~9.0.1"
-    "@nrwl/cli" "9.1.2"
+    "@nrwl/cli" "9.1.4"
     axios "0.19.2"
     chalk "2.4.2"
     cosmiconfig "4.0.0"
@@ -3107,14 +3106,6 @@ css-modules-loader-core@^1.1.0:
     postcss-modules-local-by-default "1.2.0"
     postcss-modules-scope "1.1.0"
     postcss-modules-values "1.3.0"
-
-css-modules-typescript-loader@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/css-modules-typescript-loader/-/css-modules-typescript-loader-4.0.0.tgz#17c0924107f45c7d9998fb59be5c59d6398aac5c"
-  integrity sha512-K6ii0+kt2i3sHN+VKTWdF728x+N4PFitsjE8aldUO+N98XlZhanJYIEZrnh4FMTZzDvOjyBialU0LnkCSeeUig==
-  dependencies:
-    line-diff "^2.0.1"
-    loader-utils "^1.2.3"
 
 css-parse@1.7.x:
   version "1.7.0"
@@ -6006,11 +5997,6 @@ less@3.11.1:
     request "^2.83.0"
     source-map "~0.6.0"
 
-levdist@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/levdist/-/levdist-1.0.0.tgz#91d7a3044964f2ccc421a0477cac827fe75c5718"
-  integrity sha1-kdejBElk8szEIaBHfKyCf+dcVxg=
-
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
@@ -6043,13 +6029,6 @@ lightercollective@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/lightercollective/-/lightercollective-0.1.0.tgz#70df102c530dcb8d0ccabfe6175a8d00d5f61300"
   integrity sha512-J9tg5uraYoQKaWbmrzDDexbG6hHnMcWS1qLYgJSWE+mpA3U5OCSeMUhb+K55otgZJ34oFdR0ECvdIb3xuO5JOQ==
-
-line-diff@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/line-diff/-/line-diff-2.1.0.tgz#4c407100471b4ebe1617bf37e877554a67abaa08"
-  integrity sha512-EciuZHwQfFG5ITBdIjN+zyJtcJXRVgbDSxtv6sz8BBf16rw4iGRO28AwIDVlNSoKlpDzp1UzRti54j3wBlU9Fw==
-  dependencies:
-    levdist "^1.0.0"
 
 listr-silent-renderer@^1.1.1:
   version "1.1.1"
@@ -8124,7 +8103,7 @@ request@^2.83.0, request@^2.87.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-"request@github:cypress-io/request#b5af0d1fa47eec97ba980cde90a13e69a2afcd16":
+request@cypress-io/request#b5af0d1fa47eec97ba980cde90a13e69a2afcd16:
   version "2.88.1"
   resolved "https://codeload.github.com/cypress-io/request/tar.gz/b5af0d1fa47eec97ba980cde90a13e69a2afcd16"
   dependencies:
