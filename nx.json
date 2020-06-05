@@ -18,5 +18,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "app1": {
+      "tags": []
+    },
+    "app1-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app1"]
+    },
+    "lib1": {
+      "tags": []
+    }
+  }
 }
