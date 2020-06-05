@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
     "paths": {}
   },
+  "files": [],
+  "include": [],
   "exclude": ["node_modules", "tmp"]
 }
