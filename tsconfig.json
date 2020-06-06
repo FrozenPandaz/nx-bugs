@@ -10,12 +10,3021 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "typeRoots": ["node_modules/@types"],
-    "lib": ["es2017", "dom"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tsconfig-test/lib0": [
+        "libs/lib0/src/index.ts"
+      ],
+      "@tsconfig-test/lib1": [
+        "libs/lib1/src/index.ts"
+      ],
+      "@tsconfig-test/lib2": [
+        "libs/lib2/src/index.ts"
+      ],
+      "@tsconfig-test/lib3": [
+        "libs/lib3/src/index.ts"
+      ],
+      "@tsconfig-test/lib4": [
+        "libs/lib4/src/index.ts"
+      ],
+      "@tsconfig-test/lib5": [
+        "libs/lib5/src/index.ts"
+      ],
+      "@tsconfig-test/lib6": [
+        "libs/lib6/src/index.ts"
+      ],
+      "@tsconfig-test/lib7": [
+        "libs/lib7/src/index.ts"
+      ],
+      "@tsconfig-test/lib8": [
+        "libs/lib8/src/index.ts"
+      ],
+      "@tsconfig-test/lib9": [
+        "libs/lib9/src/index.ts"
+      ],
+      "@tsconfig-test/lib10": [
+        "libs/lib10/src/index.ts"
+      ],
+      "@tsconfig-test/lib11": [
+        "libs/lib11/src/index.ts"
+      ],
+      "@tsconfig-test/lib12": [
+        "libs/lib12/src/index.ts"
+      ],
+      "@tsconfig-test/lib13": [
+        "libs/lib13/src/index.ts"
+      ],
+      "@tsconfig-test/lib14": [
+        "libs/lib14/src/index.ts"
+      ],
+      "@tsconfig-test/lib15": [
+        "libs/lib15/src/index.ts"
+      ],
+      "@tsconfig-test/lib16": [
+        "libs/lib16/src/index.ts"
+      ],
+      "@tsconfig-test/lib17": [
+        "libs/lib17/src/index.ts"
+      ],
+      "@tsconfig-test/lib18": [
+        "libs/lib18/src/index.ts"
+      ],
+      "@tsconfig-test/lib19": [
+        "libs/lib19/src/index.ts"
+      ],
+      "@tsconfig-test/lib20": [
+        "libs/lib20/src/index.ts"
+      ],
+      "@tsconfig-test/lib21": [
+        "libs/lib21/src/index.ts"
+      ],
+      "@tsconfig-test/lib22": [
+        "libs/lib22/src/index.ts"
+      ],
+      "@tsconfig-test/lib23": [
+        "libs/lib23/src/index.ts"
+      ],
+      "@tsconfig-test/lib24": [
+        "libs/lib24/src/index.ts"
+      ],
+      "@tsconfig-test/lib25": [
+        "libs/lib25/src/index.ts"
+      ],
+      "@tsconfig-test/lib26": [
+        "libs/lib26/src/index.ts"
+      ],
+      "@tsconfig-test/lib27": [
+        "libs/lib27/src/index.ts"
+      ],
+      "@tsconfig-test/lib28": [
+        "libs/lib28/src/index.ts"
+      ],
+      "@tsconfig-test/lib29": [
+        "libs/lib29/src/index.ts"
+      ],
+      "@tsconfig-test/lib30": [
+        "libs/lib30/src/index.ts"
+      ],
+      "@tsconfig-test/lib31": [
+        "libs/lib31/src/index.ts"
+      ],
+      "@tsconfig-test/lib32": [
+        "libs/lib32/src/index.ts"
+      ],
+      "@tsconfig-test/lib33": [
+        "libs/lib33/src/index.ts"
+      ],
+      "@tsconfig-test/lib34": [
+        "libs/lib34/src/index.ts"
+      ],
+      "@tsconfig-test/lib35": [
+        "libs/lib35/src/index.ts"
+      ],
+      "@tsconfig-test/lib36": [
+        "libs/lib36/src/index.ts"
+      ],
+      "@tsconfig-test/lib37": [
+        "libs/lib37/src/index.ts"
+      ],
+      "@tsconfig-test/lib38": [
+        "libs/lib38/src/index.ts"
+      ],
+      "@tsconfig-test/lib39": [
+        "libs/lib39/src/index.ts"
+      ],
+      "@tsconfig-test/lib40": [
+        "libs/lib40/src/index.ts"
+      ],
+      "@tsconfig-test/lib41": [
+        "libs/lib41/src/index.ts"
+      ],
+      "@tsconfig-test/lib42": [
+        "libs/lib42/src/index.ts"
+      ],
+      "@tsconfig-test/lib43": [
+        "libs/lib43/src/index.ts"
+      ],
+      "@tsconfig-test/lib44": [
+        "libs/lib44/src/index.ts"
+      ],
+      "@tsconfig-test/lib45": [
+        "libs/lib45/src/index.ts"
+      ],
+      "@tsconfig-test/lib46": [
+        "libs/lib46/src/index.ts"
+      ],
+      "@tsconfig-test/lib47": [
+        "libs/lib47/src/index.ts"
+      ],
+      "@tsconfig-test/lib48": [
+        "libs/lib48/src/index.ts"
+      ],
+      "@tsconfig-test/lib49": [
+        "libs/lib49/src/index.ts"
+      ],
+      "@tsconfig-test/lib50": [
+        "libs/lib50/src/index.ts"
+      ],
+      "@tsconfig-test/lib51": [
+        "libs/lib51/src/index.ts"
+      ],
+      "@tsconfig-test/lib52": [
+        "libs/lib52/src/index.ts"
+      ],
+      "@tsconfig-test/lib53": [
+        "libs/lib53/src/index.ts"
+      ],
+      "@tsconfig-test/lib54": [
+        "libs/lib54/src/index.ts"
+      ],
+      "@tsconfig-test/lib55": [
+        "libs/lib55/src/index.ts"
+      ],
+      "@tsconfig-test/lib56": [
+        "libs/lib56/src/index.ts"
+      ],
+      "@tsconfig-test/lib57": [
+        "libs/lib57/src/index.ts"
+      ],
+      "@tsconfig-test/lib58": [
+        "libs/lib58/src/index.ts"
+      ],
+      "@tsconfig-test/lib59": [
+        "libs/lib59/src/index.ts"
+      ],
+      "@tsconfig-test/lib60": [
+        "libs/lib60/src/index.ts"
+      ],
+      "@tsconfig-test/lib61": [
+        "libs/lib61/src/index.ts"
+      ],
+      "@tsconfig-test/lib62": [
+        "libs/lib62/src/index.ts"
+      ],
+      "@tsconfig-test/lib63": [
+        "libs/lib63/src/index.ts"
+      ],
+      "@tsconfig-test/lib64": [
+        "libs/lib64/src/index.ts"
+      ],
+      "@tsconfig-test/lib65": [
+        "libs/lib65/src/index.ts"
+      ],
+      "@tsconfig-test/lib66": [
+        "libs/lib66/src/index.ts"
+      ],
+      "@tsconfig-test/lib67": [
+        "libs/lib67/src/index.ts"
+      ],
+      "@tsconfig-test/lib68": [
+        "libs/lib68/src/index.ts"
+      ],
+      "@tsconfig-test/lib69": [
+        "libs/lib69/src/index.ts"
+      ],
+      "@tsconfig-test/lib70": [
+        "libs/lib70/src/index.ts"
+      ],
+      "@tsconfig-test/lib71": [
+        "libs/lib71/src/index.ts"
+      ],
+      "@tsconfig-test/lib72": [
+        "libs/lib72/src/index.ts"
+      ],
+      "@tsconfig-test/lib73": [
+        "libs/lib73/src/index.ts"
+      ],
+      "@tsconfig-test/lib74": [
+        "libs/lib74/src/index.ts"
+      ],
+      "@tsconfig-test/lib75": [
+        "libs/lib75/src/index.ts"
+      ],
+      "@tsconfig-test/lib76": [
+        "libs/lib76/src/index.ts"
+      ],
+      "@tsconfig-test/lib77": [
+        "libs/lib77/src/index.ts"
+      ],
+      "@tsconfig-test/lib78": [
+        "libs/lib78/src/index.ts"
+      ],
+      "@tsconfig-test/lib79": [
+        "libs/lib79/src/index.ts"
+      ],
+      "@tsconfig-test/lib80": [
+        "libs/lib80/src/index.ts"
+      ],
+      "@tsconfig-test/lib81": [
+        "libs/lib81/src/index.ts"
+      ],
+      "@tsconfig-test/lib82": [
+        "libs/lib82/src/index.ts"
+      ],
+      "@tsconfig-test/lib83": [
+        "libs/lib83/src/index.ts"
+      ],
+      "@tsconfig-test/lib84": [
+        "libs/lib84/src/index.ts"
+      ],
+      "@tsconfig-test/lib85": [
+        "libs/lib85/src/index.ts"
+      ],
+      "@tsconfig-test/lib86": [
+        "libs/lib86/src/index.ts"
+      ],
+      "@tsconfig-test/lib87": [
+        "libs/lib87/src/index.ts"
+      ],
+      "@tsconfig-test/lib88": [
+        "libs/lib88/src/index.ts"
+      ],
+      "@tsconfig-test/lib89": [
+        "libs/lib89/src/index.ts"
+      ],
+      "@tsconfig-test/lib90": [
+        "libs/lib90/src/index.ts"
+      ],
+      "@tsconfig-test/lib91": [
+        "libs/lib91/src/index.ts"
+      ],
+      "@tsconfig-test/lib92": [
+        "libs/lib92/src/index.ts"
+      ],
+      "@tsconfig-test/lib93": [
+        "libs/lib93/src/index.ts"
+      ],
+      "@tsconfig-test/lib94": [
+        "libs/lib94/src/index.ts"
+      ],
+      "@tsconfig-test/lib95": [
+        "libs/lib95/src/index.ts"
+      ],
+      "@tsconfig-test/lib96": [
+        "libs/lib96/src/index.ts"
+      ],
+      "@tsconfig-test/lib97": [
+        "libs/lib97/src/index.ts"
+      ],
+      "@tsconfig-test/lib98": [
+        "libs/lib98/src/index.ts"
+      ],
+      "@tsconfig-test/lib99": [
+        "libs/lib99/src/index.ts"
+      ],
+      "@tsconfig-test/lib100": [
+        "libs/lib100/src/index.ts"
+      ],
+      "@tsconfig-test/lib101": [
+        "libs/lib101/src/index.ts"
+      ],
+      "@tsconfig-test/lib102": [
+        "libs/lib102/src/index.ts"
+      ],
+      "@tsconfig-test/lib103": [
+        "libs/lib103/src/index.ts"
+      ],
+      "@tsconfig-test/lib104": [
+        "libs/lib104/src/index.ts"
+      ],
+      "@tsconfig-test/lib105": [
+        "libs/lib105/src/index.ts"
+      ],
+      "@tsconfig-test/lib106": [
+        "libs/lib106/src/index.ts"
+      ],
+      "@tsconfig-test/lib107": [
+        "libs/lib107/src/index.ts"
+      ],
+      "@tsconfig-test/lib108": [
+        "libs/lib108/src/index.ts"
+      ],
+      "@tsconfig-test/lib109": [
+        "libs/lib109/src/index.ts"
+      ],
+      "@tsconfig-test/lib110": [
+        "libs/lib110/src/index.ts"
+      ],
+      "@tsconfig-test/lib111": [
+        "libs/lib111/src/index.ts"
+      ],
+      "@tsconfig-test/lib112": [
+        "libs/lib112/src/index.ts"
+      ],
+      "@tsconfig-test/lib113": [
+        "libs/lib113/src/index.ts"
+      ],
+      "@tsconfig-test/lib114": [
+        "libs/lib114/src/index.ts"
+      ],
+      "@tsconfig-test/lib115": [
+        "libs/lib115/src/index.ts"
+      ],
+      "@tsconfig-test/lib116": [
+        "libs/lib116/src/index.ts"
+      ],
+      "@tsconfig-test/lib117": [
+        "libs/lib117/src/index.ts"
+      ],
+      "@tsconfig-test/lib118": [
+        "libs/lib118/src/index.ts"
+      ],
+      "@tsconfig-test/lib119": [
+        "libs/lib119/src/index.ts"
+      ],
+      "@tsconfig-test/lib120": [
+        "libs/lib120/src/index.ts"
+      ],
+      "@tsconfig-test/lib121": [
+        "libs/lib121/src/index.ts"
+      ],
+      "@tsconfig-test/lib122": [
+        "libs/lib122/src/index.ts"
+      ],
+      "@tsconfig-test/lib123": [
+        "libs/lib123/src/index.ts"
+      ],
+      "@tsconfig-test/lib124": [
+        "libs/lib124/src/index.ts"
+      ],
+      "@tsconfig-test/lib125": [
+        "libs/lib125/src/index.ts"
+      ],
+      "@tsconfig-test/lib126": [
+        "libs/lib126/src/index.ts"
+      ],
+      "@tsconfig-test/lib127": [
+        "libs/lib127/src/index.ts"
+      ],
+      "@tsconfig-test/lib128": [
+        "libs/lib128/src/index.ts"
+      ],
+      "@tsconfig-test/lib129": [
+        "libs/lib129/src/index.ts"
+      ],
+      "@tsconfig-test/lib130": [
+        "libs/lib130/src/index.ts"
+      ],
+      "@tsconfig-test/lib131": [
+        "libs/lib131/src/index.ts"
+      ],
+      "@tsconfig-test/lib132": [
+        "libs/lib132/src/index.ts"
+      ],
+      "@tsconfig-test/lib133": [
+        "libs/lib133/src/index.ts"
+      ],
+      "@tsconfig-test/lib134": [
+        "libs/lib134/src/index.ts"
+      ],
+      "@tsconfig-test/lib135": [
+        "libs/lib135/src/index.ts"
+      ],
+      "@tsconfig-test/lib136": [
+        "libs/lib136/src/index.ts"
+      ],
+      "@tsconfig-test/lib137": [
+        "libs/lib137/src/index.ts"
+      ],
+      "@tsconfig-test/lib138": [
+        "libs/lib138/src/index.ts"
+      ],
+      "@tsconfig-test/lib139": [
+        "libs/lib139/src/index.ts"
+      ],
+      "@tsconfig-test/lib140": [
+        "libs/lib140/src/index.ts"
+      ],
+      "@tsconfig-test/lib141": [
+        "libs/lib141/src/index.ts"
+      ],
+      "@tsconfig-test/lib142": [
+        "libs/lib142/src/index.ts"
+      ],
+      "@tsconfig-test/lib143": [
+        "libs/lib143/src/index.ts"
+      ],
+      "@tsconfig-test/lib144": [
+        "libs/lib144/src/index.ts"
+      ],
+      "@tsconfig-test/lib145": [
+        "libs/lib145/src/index.ts"
+      ],
+      "@tsconfig-test/lib146": [
+        "libs/lib146/src/index.ts"
+      ],
+      "@tsconfig-test/lib147": [
+        "libs/lib147/src/index.ts"
+      ],
+      "@tsconfig-test/lib148": [
+        "libs/lib148/src/index.ts"
+      ],
+      "@tsconfig-test/lib149": [
+        "libs/lib149/src/index.ts"
+      ],
+      "@tsconfig-test/lib150": [
+        "libs/lib150/src/index.ts"
+      ],
+      "@tsconfig-test/lib151": [
+        "libs/lib151/src/index.ts"
+      ],
+      "@tsconfig-test/lib152": [
+        "libs/lib152/src/index.ts"
+      ],
+      "@tsconfig-test/lib153": [
+        "libs/lib153/src/index.ts"
+      ],
+      "@tsconfig-test/lib154": [
+        "libs/lib154/src/index.ts"
+      ],
+      "@tsconfig-test/lib155": [
+        "libs/lib155/src/index.ts"
+      ],
+      "@tsconfig-test/lib156": [
+        "libs/lib156/src/index.ts"
+      ],
+      "@tsconfig-test/lib157": [
+        "libs/lib157/src/index.ts"
+      ],
+      "@tsconfig-test/lib158": [
+        "libs/lib158/src/index.ts"
+      ],
+      "@tsconfig-test/lib159": [
+        "libs/lib159/src/index.ts"
+      ],
+      "@tsconfig-test/lib160": [
+        "libs/lib160/src/index.ts"
+      ],
+      "@tsconfig-test/lib161": [
+        "libs/lib161/src/index.ts"
+      ],
+      "@tsconfig-test/lib162": [
+        "libs/lib162/src/index.ts"
+      ],
+      "@tsconfig-test/lib163": [
+        "libs/lib163/src/index.ts"
+      ],
+      "@tsconfig-test/lib164": [
+        "libs/lib164/src/index.ts"
+      ],
+      "@tsconfig-test/lib165": [
+        "libs/lib165/src/index.ts"
+      ],
+      "@tsconfig-test/lib166": [
+        "libs/lib166/src/index.ts"
+      ],
+      "@tsconfig-test/lib167": [
+        "libs/lib167/src/index.ts"
+      ],
+      "@tsconfig-test/lib168": [
+        "libs/lib168/src/index.ts"
+      ],
+      "@tsconfig-test/lib169": [
+        "libs/lib169/src/index.ts"
+      ],
+      "@tsconfig-test/lib170": [
+        "libs/lib170/src/index.ts"
+      ],
+      "@tsconfig-test/lib171": [
+        "libs/lib171/src/index.ts"
+      ],
+      "@tsconfig-test/lib172": [
+        "libs/lib172/src/index.ts"
+      ],
+      "@tsconfig-test/lib173": [
+        "libs/lib173/src/index.ts"
+      ],
+      "@tsconfig-test/lib174": [
+        "libs/lib174/src/index.ts"
+      ],
+      "@tsconfig-test/lib175": [
+        "libs/lib175/src/index.ts"
+      ],
+      "@tsconfig-test/lib176": [
+        "libs/lib176/src/index.ts"
+      ],
+      "@tsconfig-test/lib177": [
+        "libs/lib177/src/index.ts"
+      ],
+      "@tsconfig-test/lib178": [
+        "libs/lib178/src/index.ts"
+      ],
+      "@tsconfig-test/lib179": [
+        "libs/lib179/src/index.ts"
+      ],
+      "@tsconfig-test/lib180": [
+        "libs/lib180/src/index.ts"
+      ],
+      "@tsconfig-test/lib181": [
+        "libs/lib181/src/index.ts"
+      ],
+      "@tsconfig-test/lib182": [
+        "libs/lib182/src/index.ts"
+      ],
+      "@tsconfig-test/lib183": [
+        "libs/lib183/src/index.ts"
+      ],
+      "@tsconfig-test/lib184": [
+        "libs/lib184/src/index.ts"
+      ],
+      "@tsconfig-test/lib185": [
+        "libs/lib185/src/index.ts"
+      ],
+      "@tsconfig-test/lib186": [
+        "libs/lib186/src/index.ts"
+      ],
+      "@tsconfig-test/lib187": [
+        "libs/lib187/src/index.ts"
+      ],
+      "@tsconfig-test/lib188": [
+        "libs/lib188/src/index.ts"
+      ],
+      "@tsconfig-test/lib189": [
+        "libs/lib189/src/index.ts"
+      ],
+      "@tsconfig-test/lib190": [
+        "libs/lib190/src/index.ts"
+      ],
+      "@tsconfig-test/lib191": [
+        "libs/lib191/src/index.ts"
+      ],
+      "@tsconfig-test/lib192": [
+        "libs/lib192/src/index.ts"
+      ],
+      "@tsconfig-test/lib193": [
+        "libs/lib193/src/index.ts"
+      ],
+      "@tsconfig-test/lib194": [
+        "libs/lib194/src/index.ts"
+      ],
+      "@tsconfig-test/lib195": [
+        "libs/lib195/src/index.ts"
+      ],
+      "@tsconfig-test/lib196": [
+        "libs/lib196/src/index.ts"
+      ],
+      "@tsconfig-test/lib197": [
+        "libs/lib197/src/index.ts"
+      ],
+      "@tsconfig-test/lib198": [
+        "libs/lib198/src/index.ts"
+      ],
+      "@tsconfig-test/lib199": [
+        "libs/lib199/src/index.ts"
+      ],
+      "@tsconfig-test/lib200": [
+        "libs/lib200/src/index.ts"
+      ],
+      "@tsconfig-test/lib201": [
+        "libs/lib201/src/index.ts"
+      ],
+      "@tsconfig-test/lib202": [
+        "libs/lib202/src/index.ts"
+      ],
+      "@tsconfig-test/lib203": [
+        "libs/lib203/src/index.ts"
+      ],
+      "@tsconfig-test/lib204": [
+        "libs/lib204/src/index.ts"
+      ],
+      "@tsconfig-test/lib205": [
+        "libs/lib205/src/index.ts"
+      ],
+      "@tsconfig-test/lib206": [
+        "libs/lib206/src/index.ts"
+      ],
+      "@tsconfig-test/lib207": [
+        "libs/lib207/src/index.ts"
+      ],
+      "@tsconfig-test/lib208": [
+        "libs/lib208/src/index.ts"
+      ],
+      "@tsconfig-test/lib209": [
+        "libs/lib209/src/index.ts"
+      ],
+      "@tsconfig-test/lib210": [
+        "libs/lib210/src/index.ts"
+      ],
+      "@tsconfig-test/lib211": [
+        "libs/lib211/src/index.ts"
+      ],
+      "@tsconfig-test/lib212": [
+        "libs/lib212/src/index.ts"
+      ],
+      "@tsconfig-test/lib213": [
+        "libs/lib213/src/index.ts"
+      ],
+      "@tsconfig-test/lib214": [
+        "libs/lib214/src/index.ts"
+      ],
+      "@tsconfig-test/lib215": [
+        "libs/lib215/src/index.ts"
+      ],
+      "@tsconfig-test/lib216": [
+        "libs/lib216/src/index.ts"
+      ],
+      "@tsconfig-test/lib217": [
+        "libs/lib217/src/index.ts"
+      ],
+      "@tsconfig-test/lib218": [
+        "libs/lib218/src/index.ts"
+      ],
+      "@tsconfig-test/lib219": [
+        "libs/lib219/src/index.ts"
+      ],
+      "@tsconfig-test/lib220": [
+        "libs/lib220/src/index.ts"
+      ],
+      "@tsconfig-test/lib221": [
+        "libs/lib221/src/index.ts"
+      ],
+      "@tsconfig-test/lib222": [
+        "libs/lib222/src/index.ts"
+      ],
+      "@tsconfig-test/lib223": [
+        "libs/lib223/src/index.ts"
+      ],
+      "@tsconfig-test/lib224": [
+        "libs/lib224/src/index.ts"
+      ],
+      "@tsconfig-test/lib225": [
+        "libs/lib225/src/index.ts"
+      ],
+      "@tsconfig-test/lib226": [
+        "libs/lib226/src/index.ts"
+      ],
+      "@tsconfig-test/lib227": [
+        "libs/lib227/src/index.ts"
+      ],
+      "@tsconfig-test/lib228": [
+        "libs/lib228/src/index.ts"
+      ],
+      "@tsconfig-test/lib229": [
+        "libs/lib229/src/index.ts"
+      ],
+      "@tsconfig-test/lib230": [
+        "libs/lib230/src/index.ts"
+      ],
+      "@tsconfig-test/lib231": [
+        "libs/lib231/src/index.ts"
+      ],
+      "@tsconfig-test/lib232": [
+        "libs/lib232/src/index.ts"
+      ],
+      "@tsconfig-test/lib233": [
+        "libs/lib233/src/index.ts"
+      ],
+      "@tsconfig-test/lib234": [
+        "libs/lib234/src/index.ts"
+      ],
+      "@tsconfig-test/lib235": [
+        "libs/lib235/src/index.ts"
+      ],
+      "@tsconfig-test/lib236": [
+        "libs/lib236/src/index.ts"
+      ],
+      "@tsconfig-test/lib237": [
+        "libs/lib237/src/index.ts"
+      ],
+      "@tsconfig-test/lib238": [
+        "libs/lib238/src/index.ts"
+      ],
+      "@tsconfig-test/lib239": [
+        "libs/lib239/src/index.ts"
+      ],
+      "@tsconfig-test/lib240": [
+        "libs/lib240/src/index.ts"
+      ],
+      "@tsconfig-test/lib241": [
+        "libs/lib241/src/index.ts"
+      ],
+      "@tsconfig-test/lib242": [
+        "libs/lib242/src/index.ts"
+      ],
+      "@tsconfig-test/lib243": [
+        "libs/lib243/src/index.ts"
+      ],
+      "@tsconfig-test/lib244": [
+        "libs/lib244/src/index.ts"
+      ],
+      "@tsconfig-test/lib245": [
+        "libs/lib245/src/index.ts"
+      ],
+      "@tsconfig-test/lib246": [
+        "libs/lib246/src/index.ts"
+      ],
+      "@tsconfig-test/lib247": [
+        "libs/lib247/src/index.ts"
+      ],
+      "@tsconfig-test/lib248": [
+        "libs/lib248/src/index.ts"
+      ],
+      "@tsconfig-test/lib249": [
+        "libs/lib249/src/index.ts"
+      ],
+      "@tsconfig-test/lib250": [
+        "libs/lib250/src/index.ts"
+      ],
+      "@tsconfig-test/lib251": [
+        "libs/lib251/src/index.ts"
+      ],
+      "@tsconfig-test/lib252": [
+        "libs/lib252/src/index.ts"
+      ],
+      "@tsconfig-test/lib253": [
+        "libs/lib253/src/index.ts"
+      ],
+      "@tsconfig-test/lib254": [
+        "libs/lib254/src/index.ts"
+      ],
+      "@tsconfig-test/lib255": [
+        "libs/lib255/src/index.ts"
+      ],
+      "@tsconfig-test/lib256": [
+        "libs/lib256/src/index.ts"
+      ],
+      "@tsconfig-test/lib257": [
+        "libs/lib257/src/index.ts"
+      ],
+      "@tsconfig-test/lib258": [
+        "libs/lib258/src/index.ts"
+      ],
+      "@tsconfig-test/lib259": [
+        "libs/lib259/src/index.ts"
+      ],
+      "@tsconfig-test/lib260": [
+        "libs/lib260/src/index.ts"
+      ],
+      "@tsconfig-test/lib261": [
+        "libs/lib261/src/index.ts"
+      ],
+      "@tsconfig-test/lib262": [
+        "libs/lib262/src/index.ts"
+      ],
+      "@tsconfig-test/lib263": [
+        "libs/lib263/src/index.ts"
+      ],
+      "@tsconfig-test/lib264": [
+        "libs/lib264/src/index.ts"
+      ],
+      "@tsconfig-test/lib265": [
+        "libs/lib265/src/index.ts"
+      ],
+      "@tsconfig-test/lib266": [
+        "libs/lib266/src/index.ts"
+      ],
+      "@tsconfig-test/lib267": [
+        "libs/lib267/src/index.ts"
+      ],
+      "@tsconfig-test/lib268": [
+        "libs/lib268/src/index.ts"
+      ],
+      "@tsconfig-test/lib269": [
+        "libs/lib269/src/index.ts"
+      ],
+      "@tsconfig-test/lib270": [
+        "libs/lib270/src/index.ts"
+      ],
+      "@tsconfig-test/lib271": [
+        "libs/lib271/src/index.ts"
+      ],
+      "@tsconfig-test/lib272": [
+        "libs/lib272/src/index.ts"
+      ],
+      "@tsconfig-test/lib273": [
+        "libs/lib273/src/index.ts"
+      ],
+      "@tsconfig-test/lib274": [
+        "libs/lib274/src/index.ts"
+      ],
+      "@tsconfig-test/lib275": [
+        "libs/lib275/src/index.ts"
+      ],
+      "@tsconfig-test/lib276": [
+        "libs/lib276/src/index.ts"
+      ],
+      "@tsconfig-test/lib277": [
+        "libs/lib277/src/index.ts"
+      ],
+      "@tsconfig-test/lib278": [
+        "libs/lib278/src/index.ts"
+      ],
+      "@tsconfig-test/lib279": [
+        "libs/lib279/src/index.ts"
+      ],
+      "@tsconfig-test/lib280": [
+        "libs/lib280/src/index.ts"
+      ],
+      "@tsconfig-test/lib281": [
+        "libs/lib281/src/index.ts"
+      ],
+      "@tsconfig-test/lib282": [
+        "libs/lib282/src/index.ts"
+      ],
+      "@tsconfig-test/lib283": [
+        "libs/lib283/src/index.ts"
+      ],
+      "@tsconfig-test/lib284": [
+        "libs/lib284/src/index.ts"
+      ],
+      "@tsconfig-test/lib285": [
+        "libs/lib285/src/index.ts"
+      ],
+      "@tsconfig-test/lib286": [
+        "libs/lib286/src/index.ts"
+      ],
+      "@tsconfig-test/lib287": [
+        "libs/lib287/src/index.ts"
+      ],
+      "@tsconfig-test/lib288": [
+        "libs/lib288/src/index.ts"
+      ],
+      "@tsconfig-test/lib289": [
+        "libs/lib289/src/index.ts"
+      ],
+      "@tsconfig-test/lib290": [
+        "libs/lib290/src/index.ts"
+      ],
+      "@tsconfig-test/lib291": [
+        "libs/lib291/src/index.ts"
+      ],
+      "@tsconfig-test/lib292": [
+        "libs/lib292/src/index.ts"
+      ],
+      "@tsconfig-test/lib293": [
+        "libs/lib293/src/index.ts"
+      ],
+      "@tsconfig-test/lib294": [
+        "libs/lib294/src/index.ts"
+      ],
+      "@tsconfig-test/lib295": [
+        "libs/lib295/src/index.ts"
+      ],
+      "@tsconfig-test/lib296": [
+        "libs/lib296/src/index.ts"
+      ],
+      "@tsconfig-test/lib297": [
+        "libs/lib297/src/index.ts"
+      ],
+      "@tsconfig-test/lib298": [
+        "libs/lib298/src/index.ts"
+      ],
+      "@tsconfig-test/lib299": [
+        "libs/lib299/src/index.ts"
+      ],
+      "@tsconfig-test/lib300": [
+        "libs/lib300/src/index.ts"
+      ],
+      "@tsconfig-test/lib301": [
+        "libs/lib301/src/index.ts"
+      ],
+      "@tsconfig-test/lib302": [
+        "libs/lib302/src/index.ts"
+      ],
+      "@tsconfig-test/lib303": [
+        "libs/lib303/src/index.ts"
+      ],
+      "@tsconfig-test/lib304": [
+        "libs/lib304/src/index.ts"
+      ],
+      "@tsconfig-test/lib305": [
+        "libs/lib305/src/index.ts"
+      ],
+      "@tsconfig-test/lib306": [
+        "libs/lib306/src/index.ts"
+      ],
+      "@tsconfig-test/lib307": [
+        "libs/lib307/src/index.ts"
+      ],
+      "@tsconfig-test/lib308": [
+        "libs/lib308/src/index.ts"
+      ],
+      "@tsconfig-test/lib309": [
+        "libs/lib309/src/index.ts"
+      ],
+      "@tsconfig-test/lib310": [
+        "libs/lib310/src/index.ts"
+      ],
+      "@tsconfig-test/lib311": [
+        "libs/lib311/src/index.ts"
+      ],
+      "@tsconfig-test/lib312": [
+        "libs/lib312/src/index.ts"
+      ],
+      "@tsconfig-test/lib313": [
+        "libs/lib313/src/index.ts"
+      ],
+      "@tsconfig-test/lib314": [
+        "libs/lib314/src/index.ts"
+      ],
+      "@tsconfig-test/lib315": [
+        "libs/lib315/src/index.ts"
+      ],
+      "@tsconfig-test/lib316": [
+        "libs/lib316/src/index.ts"
+      ],
+      "@tsconfig-test/lib317": [
+        "libs/lib317/src/index.ts"
+      ],
+      "@tsconfig-test/lib318": [
+        "libs/lib318/src/index.ts"
+      ],
+      "@tsconfig-test/lib319": [
+        "libs/lib319/src/index.ts"
+      ],
+      "@tsconfig-test/lib320": [
+        "libs/lib320/src/index.ts"
+      ],
+      "@tsconfig-test/lib321": [
+        "libs/lib321/src/index.ts"
+      ],
+      "@tsconfig-test/lib322": [
+        "libs/lib322/src/index.ts"
+      ],
+      "@tsconfig-test/lib323": [
+        "libs/lib323/src/index.ts"
+      ],
+      "@tsconfig-test/lib324": [
+        "libs/lib324/src/index.ts"
+      ],
+      "@tsconfig-test/lib325": [
+        "libs/lib325/src/index.ts"
+      ],
+      "@tsconfig-test/lib326": [
+        "libs/lib326/src/index.ts"
+      ],
+      "@tsconfig-test/lib327": [
+        "libs/lib327/src/index.ts"
+      ],
+      "@tsconfig-test/lib328": [
+        "libs/lib328/src/index.ts"
+      ],
+      "@tsconfig-test/lib329": [
+        "libs/lib329/src/index.ts"
+      ],
+      "@tsconfig-test/lib330": [
+        "libs/lib330/src/index.ts"
+      ],
+      "@tsconfig-test/lib331": [
+        "libs/lib331/src/index.ts"
+      ],
+      "@tsconfig-test/lib332": [
+        "libs/lib332/src/index.ts"
+      ],
+      "@tsconfig-test/lib333": [
+        "libs/lib333/src/index.ts"
+      ],
+      "@tsconfig-test/lib334": [
+        "libs/lib334/src/index.ts"
+      ],
+      "@tsconfig-test/lib335": [
+        "libs/lib335/src/index.ts"
+      ],
+      "@tsconfig-test/lib336": [
+        "libs/lib336/src/index.ts"
+      ],
+      "@tsconfig-test/lib337": [
+        "libs/lib337/src/index.ts"
+      ],
+      "@tsconfig-test/lib338": [
+        "libs/lib338/src/index.ts"
+      ],
+      "@tsconfig-test/lib339": [
+        "libs/lib339/src/index.ts"
+      ],
+      "@tsconfig-test/lib340": [
+        "libs/lib340/src/index.ts"
+      ],
+      "@tsconfig-test/lib341": [
+        "libs/lib341/src/index.ts"
+      ],
+      "@tsconfig-test/lib342": [
+        "libs/lib342/src/index.ts"
+      ],
+      "@tsconfig-test/lib343": [
+        "libs/lib343/src/index.ts"
+      ],
+      "@tsconfig-test/lib344": [
+        "libs/lib344/src/index.ts"
+      ],
+      "@tsconfig-test/lib345": [
+        "libs/lib345/src/index.ts"
+      ],
+      "@tsconfig-test/lib346": [
+        "libs/lib346/src/index.ts"
+      ],
+      "@tsconfig-test/lib347": [
+        "libs/lib347/src/index.ts"
+      ],
+      "@tsconfig-test/lib348": [
+        "libs/lib348/src/index.ts"
+      ],
+      "@tsconfig-test/lib349": [
+        "libs/lib349/src/index.ts"
+      ],
+      "@tsconfig-test/lib350": [
+        "libs/lib350/src/index.ts"
+      ],
+      "@tsconfig-test/lib351": [
+        "libs/lib351/src/index.ts"
+      ],
+      "@tsconfig-test/lib352": [
+        "libs/lib352/src/index.ts"
+      ],
+      "@tsconfig-test/lib353": [
+        "libs/lib353/src/index.ts"
+      ],
+      "@tsconfig-test/lib354": [
+        "libs/lib354/src/index.ts"
+      ],
+      "@tsconfig-test/lib355": [
+        "libs/lib355/src/index.ts"
+      ],
+      "@tsconfig-test/lib356": [
+        "libs/lib356/src/index.ts"
+      ],
+      "@tsconfig-test/lib357": [
+        "libs/lib357/src/index.ts"
+      ],
+      "@tsconfig-test/lib358": [
+        "libs/lib358/src/index.ts"
+      ],
+      "@tsconfig-test/lib359": [
+        "libs/lib359/src/index.ts"
+      ],
+      "@tsconfig-test/lib360": [
+        "libs/lib360/src/index.ts"
+      ],
+      "@tsconfig-test/lib361": [
+        "libs/lib361/src/index.ts"
+      ],
+      "@tsconfig-test/lib362": [
+        "libs/lib362/src/index.ts"
+      ],
+      "@tsconfig-test/lib363": [
+        "libs/lib363/src/index.ts"
+      ],
+      "@tsconfig-test/lib364": [
+        "libs/lib364/src/index.ts"
+      ],
+      "@tsconfig-test/lib365": [
+        "libs/lib365/src/index.ts"
+      ],
+      "@tsconfig-test/lib366": [
+        "libs/lib366/src/index.ts"
+      ],
+      "@tsconfig-test/lib367": [
+        "libs/lib367/src/index.ts"
+      ],
+      "@tsconfig-test/lib368": [
+        "libs/lib368/src/index.ts"
+      ],
+      "@tsconfig-test/lib369": [
+        "libs/lib369/src/index.ts"
+      ],
+      "@tsconfig-test/lib370": [
+        "libs/lib370/src/index.ts"
+      ],
+      "@tsconfig-test/lib371": [
+        "libs/lib371/src/index.ts"
+      ],
+      "@tsconfig-test/lib372": [
+        "libs/lib372/src/index.ts"
+      ],
+      "@tsconfig-test/lib373": [
+        "libs/lib373/src/index.ts"
+      ],
+      "@tsconfig-test/lib374": [
+        "libs/lib374/src/index.ts"
+      ],
+      "@tsconfig-test/lib375": [
+        "libs/lib375/src/index.ts"
+      ],
+      "@tsconfig-test/lib376": [
+        "libs/lib376/src/index.ts"
+      ],
+      "@tsconfig-test/lib377": [
+        "libs/lib377/src/index.ts"
+      ],
+      "@tsconfig-test/lib378": [
+        "libs/lib378/src/index.ts"
+      ],
+      "@tsconfig-test/lib379": [
+        "libs/lib379/src/index.ts"
+      ],
+      "@tsconfig-test/lib380": [
+        "libs/lib380/src/index.ts"
+      ],
+      "@tsconfig-test/lib381": [
+        "libs/lib381/src/index.ts"
+      ],
+      "@tsconfig-test/lib382": [
+        "libs/lib382/src/index.ts"
+      ],
+      "@tsconfig-test/lib383": [
+        "libs/lib383/src/index.ts"
+      ],
+      "@tsconfig-test/lib384": [
+        "libs/lib384/src/index.ts"
+      ],
+      "@tsconfig-test/lib385": [
+        "libs/lib385/src/index.ts"
+      ],
+      "@tsconfig-test/lib386": [
+        "libs/lib386/src/index.ts"
+      ],
+      "@tsconfig-test/lib387": [
+        "libs/lib387/src/index.ts"
+      ],
+      "@tsconfig-test/lib388": [
+        "libs/lib388/src/index.ts"
+      ],
+      "@tsconfig-test/lib389": [
+        "libs/lib389/src/index.ts"
+      ],
+      "@tsconfig-test/lib390": [
+        "libs/lib390/src/index.ts"
+      ],
+      "@tsconfig-test/lib391": [
+        "libs/lib391/src/index.ts"
+      ],
+      "@tsconfig-test/lib392": [
+        "libs/lib392/src/index.ts"
+      ],
+      "@tsconfig-test/lib393": [
+        "libs/lib393/src/index.ts"
+      ],
+      "@tsconfig-test/lib394": [
+        "libs/lib394/src/index.ts"
+      ],
+      "@tsconfig-test/lib395": [
+        "libs/lib395/src/index.ts"
+      ],
+      "@tsconfig-test/lib396": [
+        "libs/lib396/src/index.ts"
+      ],
+      "@tsconfig-test/lib397": [
+        "libs/lib397/src/index.ts"
+      ],
+      "@tsconfig-test/lib398": [
+        "libs/lib398/src/index.ts"
+      ],
+      "@tsconfig-test/lib399": [
+        "libs/lib399/src/index.ts"
+      ],
+      "@tsconfig-test/lib400": [
+        "libs/lib400/src/index.ts"
+      ],
+      "@tsconfig-test/lib401": [
+        "libs/lib401/src/index.ts"
+      ],
+      "@tsconfig-test/lib402": [
+        "libs/lib402/src/index.ts"
+      ],
+      "@tsconfig-test/lib403": [
+        "libs/lib403/src/index.ts"
+      ],
+      "@tsconfig-test/lib404": [
+        "libs/lib404/src/index.ts"
+      ],
+      "@tsconfig-test/lib405": [
+        "libs/lib405/src/index.ts"
+      ],
+      "@tsconfig-test/lib406": [
+        "libs/lib406/src/index.ts"
+      ],
+      "@tsconfig-test/lib407": [
+        "libs/lib407/src/index.ts"
+      ],
+      "@tsconfig-test/lib408": [
+        "libs/lib408/src/index.ts"
+      ],
+      "@tsconfig-test/lib409": [
+        "libs/lib409/src/index.ts"
+      ],
+      "@tsconfig-test/lib410": [
+        "libs/lib410/src/index.ts"
+      ],
+      "@tsconfig-test/lib411": [
+        "libs/lib411/src/index.ts"
+      ],
+      "@tsconfig-test/lib412": [
+        "libs/lib412/src/index.ts"
+      ],
+      "@tsconfig-test/lib413": [
+        "libs/lib413/src/index.ts"
+      ],
+      "@tsconfig-test/lib414": [
+        "libs/lib414/src/index.ts"
+      ],
+      "@tsconfig-test/lib415": [
+        "libs/lib415/src/index.ts"
+      ],
+      "@tsconfig-test/lib416": [
+        "libs/lib416/src/index.ts"
+      ],
+      "@tsconfig-test/lib417": [
+        "libs/lib417/src/index.ts"
+      ],
+      "@tsconfig-test/lib418": [
+        "libs/lib418/src/index.ts"
+      ],
+      "@tsconfig-test/lib419": [
+        "libs/lib419/src/index.ts"
+      ],
+      "@tsconfig-test/lib420": [
+        "libs/lib420/src/index.ts"
+      ],
+      "@tsconfig-test/lib421": [
+        "libs/lib421/src/index.ts"
+      ],
+      "@tsconfig-test/lib422": [
+        "libs/lib422/src/index.ts"
+      ],
+      "@tsconfig-test/lib423": [
+        "libs/lib423/src/index.ts"
+      ],
+      "@tsconfig-test/lib424": [
+        "libs/lib424/src/index.ts"
+      ],
+      "@tsconfig-test/lib425": [
+        "libs/lib425/src/index.ts"
+      ],
+      "@tsconfig-test/lib426": [
+        "libs/lib426/src/index.ts"
+      ],
+      "@tsconfig-test/lib427": [
+        "libs/lib427/src/index.ts"
+      ],
+      "@tsconfig-test/lib428": [
+        "libs/lib428/src/index.ts"
+      ],
+      "@tsconfig-test/lib429": [
+        "libs/lib429/src/index.ts"
+      ],
+      "@tsconfig-test/lib430": [
+        "libs/lib430/src/index.ts"
+      ],
+      "@tsconfig-test/lib431": [
+        "libs/lib431/src/index.ts"
+      ],
+      "@tsconfig-test/lib432": [
+        "libs/lib432/src/index.ts"
+      ],
+      "@tsconfig-test/lib433": [
+        "libs/lib433/src/index.ts"
+      ],
+      "@tsconfig-test/lib434": [
+        "libs/lib434/src/index.ts"
+      ],
+      "@tsconfig-test/lib435": [
+        "libs/lib435/src/index.ts"
+      ],
+      "@tsconfig-test/lib436": [
+        "libs/lib436/src/index.ts"
+      ],
+      "@tsconfig-test/lib437": [
+        "libs/lib437/src/index.ts"
+      ],
+      "@tsconfig-test/lib438": [
+        "libs/lib438/src/index.ts"
+      ],
+      "@tsconfig-test/lib439": [
+        "libs/lib439/src/index.ts"
+      ],
+      "@tsconfig-test/lib440": [
+        "libs/lib440/src/index.ts"
+      ],
+      "@tsconfig-test/lib441": [
+        "libs/lib441/src/index.ts"
+      ],
+      "@tsconfig-test/lib442": [
+        "libs/lib442/src/index.ts"
+      ],
+      "@tsconfig-test/lib443": [
+        "libs/lib443/src/index.ts"
+      ],
+      "@tsconfig-test/lib444": [
+        "libs/lib444/src/index.ts"
+      ],
+      "@tsconfig-test/lib445": [
+        "libs/lib445/src/index.ts"
+      ],
+      "@tsconfig-test/lib446": [
+        "libs/lib446/src/index.ts"
+      ],
+      "@tsconfig-test/lib447": [
+        "libs/lib447/src/index.ts"
+      ],
+      "@tsconfig-test/lib448": [
+        "libs/lib448/src/index.ts"
+      ],
+      "@tsconfig-test/lib449": [
+        "libs/lib449/src/index.ts"
+      ],
+      "@tsconfig-test/lib450": [
+        "libs/lib450/src/index.ts"
+      ],
+      "@tsconfig-test/lib451": [
+        "libs/lib451/src/index.ts"
+      ],
+      "@tsconfig-test/lib452": [
+        "libs/lib452/src/index.ts"
+      ],
+      "@tsconfig-test/lib453": [
+        "libs/lib453/src/index.ts"
+      ],
+      "@tsconfig-test/lib454": [
+        "libs/lib454/src/index.ts"
+      ],
+      "@tsconfig-test/lib455": [
+        "libs/lib455/src/index.ts"
+      ],
+      "@tsconfig-test/lib456": [
+        "libs/lib456/src/index.ts"
+      ],
+      "@tsconfig-test/lib457": [
+        "libs/lib457/src/index.ts"
+      ],
+      "@tsconfig-test/lib458": [
+        "libs/lib458/src/index.ts"
+      ],
+      "@tsconfig-test/lib459": [
+        "libs/lib459/src/index.ts"
+      ],
+      "@tsconfig-test/lib460": [
+        "libs/lib460/src/index.ts"
+      ],
+      "@tsconfig-test/lib461": [
+        "libs/lib461/src/index.ts"
+      ],
+      "@tsconfig-test/lib462": [
+        "libs/lib462/src/index.ts"
+      ],
+      "@tsconfig-test/lib463": [
+        "libs/lib463/src/index.ts"
+      ],
+      "@tsconfig-test/lib464": [
+        "libs/lib464/src/index.ts"
+      ],
+      "@tsconfig-test/lib465": [
+        "libs/lib465/src/index.ts"
+      ],
+      "@tsconfig-test/lib466": [
+        "libs/lib466/src/index.ts"
+      ],
+      "@tsconfig-test/lib467": [
+        "libs/lib467/src/index.ts"
+      ],
+      "@tsconfig-test/lib468": [
+        "libs/lib468/src/index.ts"
+      ],
+      "@tsconfig-test/lib469": [
+        "libs/lib469/src/index.ts"
+      ],
+      "@tsconfig-test/lib470": [
+        "libs/lib470/src/index.ts"
+      ],
+      "@tsconfig-test/lib471": [
+        "libs/lib471/src/index.ts"
+      ],
+      "@tsconfig-test/lib472": [
+        "libs/lib472/src/index.ts"
+      ],
+      "@tsconfig-test/lib473": [
+        "libs/lib473/src/index.ts"
+      ],
+      "@tsconfig-test/lib474": [
+        "libs/lib474/src/index.ts"
+      ],
+      "@tsconfig-test/lib475": [
+        "libs/lib475/src/index.ts"
+      ],
+      "@tsconfig-test/lib476": [
+        "libs/lib476/src/index.ts"
+      ],
+      "@tsconfig-test/lib477": [
+        "libs/lib477/src/index.ts"
+      ],
+      "@tsconfig-test/lib478": [
+        "libs/lib478/src/index.ts"
+      ],
+      "@tsconfig-test/lib479": [
+        "libs/lib479/src/index.ts"
+      ],
+      "@tsconfig-test/lib480": [
+        "libs/lib480/src/index.ts"
+      ],
+      "@tsconfig-test/lib481": [
+        "libs/lib481/src/index.ts"
+      ],
+      "@tsconfig-test/lib482": [
+        "libs/lib482/src/index.ts"
+      ],
+      "@tsconfig-test/lib483": [
+        "libs/lib483/src/index.ts"
+      ],
+      "@tsconfig-test/lib484": [
+        "libs/lib484/src/index.ts"
+      ],
+      "@tsconfig-test/lib485": [
+        "libs/lib485/src/index.ts"
+      ],
+      "@tsconfig-test/lib486": [
+        "libs/lib486/src/index.ts"
+      ],
+      "@tsconfig-test/lib487": [
+        "libs/lib487/src/index.ts"
+      ],
+      "@tsconfig-test/lib488": [
+        "libs/lib488/src/index.ts"
+      ],
+      "@tsconfig-test/lib489": [
+        "libs/lib489/src/index.ts"
+      ],
+      "@tsconfig-test/lib490": [
+        "libs/lib490/src/index.ts"
+      ],
+      "@tsconfig-test/lib491": [
+        "libs/lib491/src/index.ts"
+      ],
+      "@tsconfig-test/lib492": [
+        "libs/lib492/src/index.ts"
+      ],
+      "@tsconfig-test/lib493": [
+        "libs/lib493/src/index.ts"
+      ],
+      "@tsconfig-test/lib494": [
+        "libs/lib494/src/index.ts"
+      ],
+      "@tsconfig-test/lib495": [
+        "libs/lib495/src/index.ts"
+      ],
+      "@tsconfig-test/lib496": [
+        "libs/lib496/src/index.ts"
+      ],
+      "@tsconfig-test/lib497": [
+        "libs/lib497/src/index.ts"
+      ],
+      "@tsconfig-test/lib498": [
+        "libs/lib498/src/index.ts"
+      ],
+      "@tsconfig-test/lib499": [
+        "libs/lib499/src/index.ts"
+      ],
+      "@tsconfig-test/lib500": [
+        "libs/lib500/src/index.ts"
+      ],
+      "@tsconfig-test/lib501": [
+        "libs/lib501/src/index.ts"
+      ],
+      "@tsconfig-test/lib502": [
+        "libs/lib502/src/index.ts"
+      ],
+      "@tsconfig-test/lib503": [
+        "libs/lib503/src/index.ts"
+      ],
+      "@tsconfig-test/lib504": [
+        "libs/lib504/src/index.ts"
+      ],
+      "@tsconfig-test/lib505": [
+        "libs/lib505/src/index.ts"
+      ],
+      "@tsconfig-test/lib506": [
+        "libs/lib506/src/index.ts"
+      ],
+      "@tsconfig-test/lib507": [
+        "libs/lib507/src/index.ts"
+      ],
+      "@tsconfig-test/lib508": [
+        "libs/lib508/src/index.ts"
+      ],
+      "@tsconfig-test/lib509": [
+        "libs/lib509/src/index.ts"
+      ],
+      "@tsconfig-test/lib510": [
+        "libs/lib510/src/index.ts"
+      ],
+      "@tsconfig-test/lib511": [
+        "libs/lib511/src/index.ts"
+      ],
+      "@tsconfig-test/lib512": [
+        "libs/lib512/src/index.ts"
+      ],
+      "@tsconfig-test/lib513": [
+        "libs/lib513/src/index.ts"
+      ],
+      "@tsconfig-test/lib514": [
+        "libs/lib514/src/index.ts"
+      ],
+      "@tsconfig-test/lib515": [
+        "libs/lib515/src/index.ts"
+      ],
+      "@tsconfig-test/lib516": [
+        "libs/lib516/src/index.ts"
+      ],
+      "@tsconfig-test/lib517": [
+        "libs/lib517/src/index.ts"
+      ],
+      "@tsconfig-test/lib518": [
+        "libs/lib518/src/index.ts"
+      ],
+      "@tsconfig-test/lib519": [
+        "libs/lib519/src/index.ts"
+      ],
+      "@tsconfig-test/lib520": [
+        "libs/lib520/src/index.ts"
+      ],
+      "@tsconfig-test/lib521": [
+        "libs/lib521/src/index.ts"
+      ],
+      "@tsconfig-test/lib522": [
+        "libs/lib522/src/index.ts"
+      ],
+      "@tsconfig-test/lib523": [
+        "libs/lib523/src/index.ts"
+      ],
+      "@tsconfig-test/lib524": [
+        "libs/lib524/src/index.ts"
+      ],
+      "@tsconfig-test/lib525": [
+        "libs/lib525/src/index.ts"
+      ],
+      "@tsconfig-test/lib526": [
+        "libs/lib526/src/index.ts"
+      ],
+      "@tsconfig-test/lib527": [
+        "libs/lib527/src/index.ts"
+      ],
+      "@tsconfig-test/lib528": [
+        "libs/lib528/src/index.ts"
+      ],
+      "@tsconfig-test/lib529": [
+        "libs/lib529/src/index.ts"
+      ],
+      "@tsconfig-test/lib530": [
+        "libs/lib530/src/index.ts"
+      ],
+      "@tsconfig-test/lib531": [
+        "libs/lib531/src/index.ts"
+      ],
+      "@tsconfig-test/lib532": [
+        "libs/lib532/src/index.ts"
+      ],
+      "@tsconfig-test/lib533": [
+        "libs/lib533/src/index.ts"
+      ],
+      "@tsconfig-test/lib534": [
+        "libs/lib534/src/index.ts"
+      ],
+      "@tsconfig-test/lib535": [
+        "libs/lib535/src/index.ts"
+      ],
+      "@tsconfig-test/lib536": [
+        "libs/lib536/src/index.ts"
+      ],
+      "@tsconfig-test/lib537": [
+        "libs/lib537/src/index.ts"
+      ],
+      "@tsconfig-test/lib538": [
+        "libs/lib538/src/index.ts"
+      ],
+      "@tsconfig-test/lib539": [
+        "libs/lib539/src/index.ts"
+      ],
+      "@tsconfig-test/lib540": [
+        "libs/lib540/src/index.ts"
+      ],
+      "@tsconfig-test/lib541": [
+        "libs/lib541/src/index.ts"
+      ],
+      "@tsconfig-test/lib542": [
+        "libs/lib542/src/index.ts"
+      ],
+      "@tsconfig-test/lib543": [
+        "libs/lib543/src/index.ts"
+      ],
+      "@tsconfig-test/lib544": [
+        "libs/lib544/src/index.ts"
+      ],
+      "@tsconfig-test/lib545": [
+        "libs/lib545/src/index.ts"
+      ],
+      "@tsconfig-test/lib546": [
+        "libs/lib546/src/index.ts"
+      ],
+      "@tsconfig-test/lib547": [
+        "libs/lib547/src/index.ts"
+      ],
+      "@tsconfig-test/lib548": [
+        "libs/lib548/src/index.ts"
+      ],
+      "@tsconfig-test/lib549": [
+        "libs/lib549/src/index.ts"
+      ],
+      "@tsconfig-test/lib550": [
+        "libs/lib550/src/index.ts"
+      ],
+      "@tsconfig-test/lib551": [
+        "libs/lib551/src/index.ts"
+      ],
+      "@tsconfig-test/lib552": [
+        "libs/lib552/src/index.ts"
+      ],
+      "@tsconfig-test/lib553": [
+        "libs/lib553/src/index.ts"
+      ],
+      "@tsconfig-test/lib554": [
+        "libs/lib554/src/index.ts"
+      ],
+      "@tsconfig-test/lib555": [
+        "libs/lib555/src/index.ts"
+      ],
+      "@tsconfig-test/lib556": [
+        "libs/lib556/src/index.ts"
+      ],
+      "@tsconfig-test/lib557": [
+        "libs/lib557/src/index.ts"
+      ],
+      "@tsconfig-test/lib558": [
+        "libs/lib558/src/index.ts"
+      ],
+      "@tsconfig-test/lib559": [
+        "libs/lib559/src/index.ts"
+      ],
+      "@tsconfig-test/lib560": [
+        "libs/lib560/src/index.ts"
+      ],
+      "@tsconfig-test/lib561": [
+        "libs/lib561/src/index.ts"
+      ],
+      "@tsconfig-test/lib562": [
+        "libs/lib562/src/index.ts"
+      ],
+      "@tsconfig-test/lib563": [
+        "libs/lib563/src/index.ts"
+      ],
+      "@tsconfig-test/lib564": [
+        "libs/lib564/src/index.ts"
+      ],
+      "@tsconfig-test/lib565": [
+        "libs/lib565/src/index.ts"
+      ],
+      "@tsconfig-test/lib566": [
+        "libs/lib566/src/index.ts"
+      ],
+      "@tsconfig-test/lib567": [
+        "libs/lib567/src/index.ts"
+      ],
+      "@tsconfig-test/lib568": [
+        "libs/lib568/src/index.ts"
+      ],
+      "@tsconfig-test/lib569": [
+        "libs/lib569/src/index.ts"
+      ],
+      "@tsconfig-test/lib570": [
+        "libs/lib570/src/index.ts"
+      ],
+      "@tsconfig-test/lib571": [
+        "libs/lib571/src/index.ts"
+      ],
+      "@tsconfig-test/lib572": [
+        "libs/lib572/src/index.ts"
+      ],
+      "@tsconfig-test/lib573": [
+        "libs/lib573/src/index.ts"
+      ],
+      "@tsconfig-test/lib574": [
+        "libs/lib574/src/index.ts"
+      ],
+      "@tsconfig-test/lib575": [
+        "libs/lib575/src/index.ts"
+      ],
+      "@tsconfig-test/lib576": [
+        "libs/lib576/src/index.ts"
+      ],
+      "@tsconfig-test/lib577": [
+        "libs/lib577/src/index.ts"
+      ],
+      "@tsconfig-test/lib578": [
+        "libs/lib578/src/index.ts"
+      ],
+      "@tsconfig-test/lib579": [
+        "libs/lib579/src/index.ts"
+      ],
+      "@tsconfig-test/lib580": [
+        "libs/lib580/src/index.ts"
+      ],
+      "@tsconfig-test/lib581": [
+        "libs/lib581/src/index.ts"
+      ],
+      "@tsconfig-test/lib582": [
+        "libs/lib582/src/index.ts"
+      ],
+      "@tsconfig-test/lib583": [
+        "libs/lib583/src/index.ts"
+      ],
+      "@tsconfig-test/lib584": [
+        "libs/lib584/src/index.ts"
+      ],
+      "@tsconfig-test/lib585": [
+        "libs/lib585/src/index.ts"
+      ],
+      "@tsconfig-test/lib586": [
+        "libs/lib586/src/index.ts"
+      ],
+      "@tsconfig-test/lib587": [
+        "libs/lib587/src/index.ts"
+      ],
+      "@tsconfig-test/lib588": [
+        "libs/lib588/src/index.ts"
+      ],
+      "@tsconfig-test/lib589": [
+        "libs/lib589/src/index.ts"
+      ],
+      "@tsconfig-test/lib590": [
+        "libs/lib590/src/index.ts"
+      ],
+      "@tsconfig-test/lib591": [
+        "libs/lib591/src/index.ts"
+      ],
+      "@tsconfig-test/lib592": [
+        "libs/lib592/src/index.ts"
+      ],
+      "@tsconfig-test/lib593": [
+        "libs/lib593/src/index.ts"
+      ],
+      "@tsconfig-test/lib594": [
+        "libs/lib594/src/index.ts"
+      ],
+      "@tsconfig-test/lib595": [
+        "libs/lib595/src/index.ts"
+      ],
+      "@tsconfig-test/lib596": [
+        "libs/lib596/src/index.ts"
+      ],
+      "@tsconfig-test/lib597": [
+        "libs/lib597/src/index.ts"
+      ],
+      "@tsconfig-test/lib598": [
+        "libs/lib598/src/index.ts"
+      ],
+      "@tsconfig-test/lib599": [
+        "libs/lib599/src/index.ts"
+      ],
+      "@tsconfig-test/lib600": [
+        "libs/lib600/src/index.ts"
+      ],
+      "@tsconfig-test/lib601": [
+        "libs/lib601/src/index.ts"
+      ],
+      "@tsconfig-test/lib602": [
+        "libs/lib602/src/index.ts"
+      ],
+      "@tsconfig-test/lib603": [
+        "libs/lib603/src/index.ts"
+      ],
+      "@tsconfig-test/lib604": [
+        "libs/lib604/src/index.ts"
+      ],
+      "@tsconfig-test/lib605": [
+        "libs/lib605/src/index.ts"
+      ],
+      "@tsconfig-test/lib606": [
+        "libs/lib606/src/index.ts"
+      ],
+      "@tsconfig-test/lib607": [
+        "libs/lib607/src/index.ts"
+      ],
+      "@tsconfig-test/lib608": [
+        "libs/lib608/src/index.ts"
+      ],
+      "@tsconfig-test/lib609": [
+        "libs/lib609/src/index.ts"
+      ],
+      "@tsconfig-test/lib610": [
+        "libs/lib610/src/index.ts"
+      ],
+      "@tsconfig-test/lib611": [
+        "libs/lib611/src/index.ts"
+      ],
+      "@tsconfig-test/lib612": [
+        "libs/lib612/src/index.ts"
+      ],
+      "@tsconfig-test/lib613": [
+        "libs/lib613/src/index.ts"
+      ],
+      "@tsconfig-test/lib614": [
+        "libs/lib614/src/index.ts"
+      ],
+      "@tsconfig-test/lib615": [
+        "libs/lib615/src/index.ts"
+      ],
+      "@tsconfig-test/lib616": [
+        "libs/lib616/src/index.ts"
+      ],
+      "@tsconfig-test/lib617": [
+        "libs/lib617/src/index.ts"
+      ],
+      "@tsconfig-test/lib618": [
+        "libs/lib618/src/index.ts"
+      ],
+      "@tsconfig-test/lib619": [
+        "libs/lib619/src/index.ts"
+      ],
+      "@tsconfig-test/lib620": [
+        "libs/lib620/src/index.ts"
+      ],
+      "@tsconfig-test/lib621": [
+        "libs/lib621/src/index.ts"
+      ],
+      "@tsconfig-test/lib622": [
+        "libs/lib622/src/index.ts"
+      ],
+      "@tsconfig-test/lib623": [
+        "libs/lib623/src/index.ts"
+      ],
+      "@tsconfig-test/lib624": [
+        "libs/lib624/src/index.ts"
+      ],
+      "@tsconfig-test/lib625": [
+        "libs/lib625/src/index.ts"
+      ],
+      "@tsconfig-test/lib626": [
+        "libs/lib626/src/index.ts"
+      ],
+      "@tsconfig-test/lib627": [
+        "libs/lib627/src/index.ts"
+      ],
+      "@tsconfig-test/lib628": [
+        "libs/lib628/src/index.ts"
+      ],
+      "@tsconfig-test/lib629": [
+        "libs/lib629/src/index.ts"
+      ],
+      "@tsconfig-test/lib630": [
+        "libs/lib630/src/index.ts"
+      ],
+      "@tsconfig-test/lib631": [
+        "libs/lib631/src/index.ts"
+      ],
+      "@tsconfig-test/lib632": [
+        "libs/lib632/src/index.ts"
+      ],
+      "@tsconfig-test/lib633": [
+        "libs/lib633/src/index.ts"
+      ],
+      "@tsconfig-test/lib634": [
+        "libs/lib634/src/index.ts"
+      ],
+      "@tsconfig-test/lib635": [
+        "libs/lib635/src/index.ts"
+      ],
+      "@tsconfig-test/lib636": [
+        "libs/lib636/src/index.ts"
+      ],
+      "@tsconfig-test/lib637": [
+        "libs/lib637/src/index.ts"
+      ],
+      "@tsconfig-test/lib638": [
+        "libs/lib638/src/index.ts"
+      ],
+      "@tsconfig-test/lib639": [
+        "libs/lib639/src/index.ts"
+      ],
+      "@tsconfig-test/lib640": [
+        "libs/lib640/src/index.ts"
+      ],
+      "@tsconfig-test/lib641": [
+        "libs/lib641/src/index.ts"
+      ],
+      "@tsconfig-test/lib642": [
+        "libs/lib642/src/index.ts"
+      ],
+      "@tsconfig-test/lib643": [
+        "libs/lib643/src/index.ts"
+      ],
+      "@tsconfig-test/lib644": [
+        "libs/lib644/src/index.ts"
+      ],
+      "@tsconfig-test/lib645": [
+        "libs/lib645/src/index.ts"
+      ],
+      "@tsconfig-test/lib646": [
+        "libs/lib646/src/index.ts"
+      ],
+      "@tsconfig-test/lib647": [
+        "libs/lib647/src/index.ts"
+      ],
+      "@tsconfig-test/lib648": [
+        "libs/lib648/src/index.ts"
+      ],
+      "@tsconfig-test/lib649": [
+        "libs/lib649/src/index.ts"
+      ],
+      "@tsconfig-test/lib650": [
+        "libs/lib650/src/index.ts"
+      ],
+      "@tsconfig-test/lib651": [
+        "libs/lib651/src/index.ts"
+      ],
+      "@tsconfig-test/lib652": [
+        "libs/lib652/src/index.ts"
+      ],
+      "@tsconfig-test/lib653": [
+        "libs/lib653/src/index.ts"
+      ],
+      "@tsconfig-test/lib654": [
+        "libs/lib654/src/index.ts"
+      ],
+      "@tsconfig-test/lib655": [
+        "libs/lib655/src/index.ts"
+      ],
+      "@tsconfig-test/lib656": [
+        "libs/lib656/src/index.ts"
+      ],
+      "@tsconfig-test/lib657": [
+        "libs/lib657/src/index.ts"
+      ],
+      "@tsconfig-test/lib658": [
+        "libs/lib658/src/index.ts"
+      ],
+      "@tsconfig-test/lib659": [
+        "libs/lib659/src/index.ts"
+      ],
+      "@tsconfig-test/lib660": [
+        "libs/lib660/src/index.ts"
+      ],
+      "@tsconfig-test/lib661": [
+        "libs/lib661/src/index.ts"
+      ],
+      "@tsconfig-test/lib662": [
+        "libs/lib662/src/index.ts"
+      ],
+      "@tsconfig-test/lib663": [
+        "libs/lib663/src/index.ts"
+      ],
+      "@tsconfig-test/lib664": [
+        "libs/lib664/src/index.ts"
+      ],
+      "@tsconfig-test/lib665": [
+        "libs/lib665/src/index.ts"
+      ],
+      "@tsconfig-test/lib666": [
+        "libs/lib666/src/index.ts"
+      ],
+      "@tsconfig-test/lib667": [
+        "libs/lib667/src/index.ts"
+      ],
+      "@tsconfig-test/lib668": [
+        "libs/lib668/src/index.ts"
+      ],
+      "@tsconfig-test/lib669": [
+        "libs/lib669/src/index.ts"
+      ],
+      "@tsconfig-test/lib670": [
+        "libs/lib670/src/index.ts"
+      ],
+      "@tsconfig-test/lib671": [
+        "libs/lib671/src/index.ts"
+      ],
+      "@tsconfig-test/lib672": [
+        "libs/lib672/src/index.ts"
+      ],
+      "@tsconfig-test/lib673": [
+        "libs/lib673/src/index.ts"
+      ],
+      "@tsconfig-test/lib674": [
+        "libs/lib674/src/index.ts"
+      ],
+      "@tsconfig-test/lib675": [
+        "libs/lib675/src/index.ts"
+      ],
+      "@tsconfig-test/lib676": [
+        "libs/lib676/src/index.ts"
+      ],
+      "@tsconfig-test/lib677": [
+        "libs/lib677/src/index.ts"
+      ],
+      "@tsconfig-test/lib678": [
+        "libs/lib678/src/index.ts"
+      ],
+      "@tsconfig-test/lib679": [
+        "libs/lib679/src/index.ts"
+      ],
+      "@tsconfig-test/lib680": [
+        "libs/lib680/src/index.ts"
+      ],
+      "@tsconfig-test/lib681": [
+        "libs/lib681/src/index.ts"
+      ],
+      "@tsconfig-test/lib682": [
+        "libs/lib682/src/index.ts"
+      ],
+      "@tsconfig-test/lib683": [
+        "libs/lib683/src/index.ts"
+      ],
+      "@tsconfig-test/lib684": [
+        "libs/lib684/src/index.ts"
+      ],
+      "@tsconfig-test/lib685": [
+        "libs/lib685/src/index.ts"
+      ],
+      "@tsconfig-test/lib686": [
+        "libs/lib686/src/index.ts"
+      ],
+      "@tsconfig-test/lib687": [
+        "libs/lib687/src/index.ts"
+      ],
+      "@tsconfig-test/lib688": [
+        "libs/lib688/src/index.ts"
+      ],
+      "@tsconfig-test/lib689": [
+        "libs/lib689/src/index.ts"
+      ],
+      "@tsconfig-test/lib690": [
+        "libs/lib690/src/index.ts"
+      ],
+      "@tsconfig-test/lib691": [
+        "libs/lib691/src/index.ts"
+      ],
+      "@tsconfig-test/lib692": [
+        "libs/lib692/src/index.ts"
+      ],
+      "@tsconfig-test/lib693": [
+        "libs/lib693/src/index.ts"
+      ],
+      "@tsconfig-test/lib694": [
+        "libs/lib694/src/index.ts"
+      ],
+      "@tsconfig-test/lib695": [
+        "libs/lib695/src/index.ts"
+      ],
+      "@tsconfig-test/lib696": [
+        "libs/lib696/src/index.ts"
+      ],
+      "@tsconfig-test/lib697": [
+        "libs/lib697/src/index.ts"
+      ],
+      "@tsconfig-test/lib698": [
+        "libs/lib698/src/index.ts"
+      ],
+      "@tsconfig-test/lib699": [
+        "libs/lib699/src/index.ts"
+      ],
+      "@tsconfig-test/lib700": [
+        "libs/lib700/src/index.ts"
+      ],
+      "@tsconfig-test/lib701": [
+        "libs/lib701/src/index.ts"
+      ],
+      "@tsconfig-test/lib702": [
+        "libs/lib702/src/index.ts"
+      ],
+      "@tsconfig-test/lib703": [
+        "libs/lib703/src/index.ts"
+      ],
+      "@tsconfig-test/lib704": [
+        "libs/lib704/src/index.ts"
+      ],
+      "@tsconfig-test/lib705": [
+        "libs/lib705/src/index.ts"
+      ],
+      "@tsconfig-test/lib706": [
+        "libs/lib706/src/index.ts"
+      ],
+      "@tsconfig-test/lib707": [
+        "libs/lib707/src/index.ts"
+      ],
+      "@tsconfig-test/lib708": [
+        "libs/lib708/src/index.ts"
+      ],
+      "@tsconfig-test/lib709": [
+        "libs/lib709/src/index.ts"
+      ],
+      "@tsconfig-test/lib710": [
+        "libs/lib710/src/index.ts"
+      ],
+      "@tsconfig-test/lib711": [
+        "libs/lib711/src/index.ts"
+      ],
+      "@tsconfig-test/lib712": [
+        "libs/lib712/src/index.ts"
+      ],
+      "@tsconfig-test/lib713": [
+        "libs/lib713/src/index.ts"
+      ],
+      "@tsconfig-test/lib714": [
+        "libs/lib714/src/index.ts"
+      ],
+      "@tsconfig-test/lib715": [
+        "libs/lib715/src/index.ts"
+      ],
+      "@tsconfig-test/lib716": [
+        "libs/lib716/src/index.ts"
+      ],
+      "@tsconfig-test/lib717": [
+        "libs/lib717/src/index.ts"
+      ],
+      "@tsconfig-test/lib718": [
+        "libs/lib718/src/index.ts"
+      ],
+      "@tsconfig-test/lib719": [
+        "libs/lib719/src/index.ts"
+      ],
+      "@tsconfig-test/lib720": [
+        "libs/lib720/src/index.ts"
+      ],
+      "@tsconfig-test/lib721": [
+        "libs/lib721/src/index.ts"
+      ],
+      "@tsconfig-test/lib722": [
+        "libs/lib722/src/index.ts"
+      ],
+      "@tsconfig-test/lib723": [
+        "libs/lib723/src/index.ts"
+      ],
+      "@tsconfig-test/lib724": [
+        "libs/lib724/src/index.ts"
+      ],
+      "@tsconfig-test/lib725": [
+        "libs/lib725/src/index.ts"
+      ],
+      "@tsconfig-test/lib726": [
+        "libs/lib726/src/index.ts"
+      ],
+      "@tsconfig-test/lib727": [
+        "libs/lib727/src/index.ts"
+      ],
+      "@tsconfig-test/lib728": [
+        "libs/lib728/src/index.ts"
+      ],
+      "@tsconfig-test/lib729": [
+        "libs/lib729/src/index.ts"
+      ],
+      "@tsconfig-test/lib730": [
+        "libs/lib730/src/index.ts"
+      ],
+      "@tsconfig-test/lib731": [
+        "libs/lib731/src/index.ts"
+      ],
+      "@tsconfig-test/lib732": [
+        "libs/lib732/src/index.ts"
+      ],
+      "@tsconfig-test/lib733": [
+        "libs/lib733/src/index.ts"
+      ],
+      "@tsconfig-test/lib734": [
+        "libs/lib734/src/index.ts"
+      ],
+      "@tsconfig-test/lib735": [
+        "libs/lib735/src/index.ts"
+      ],
+      "@tsconfig-test/lib736": [
+        "libs/lib736/src/index.ts"
+      ],
+      "@tsconfig-test/lib737": [
+        "libs/lib737/src/index.ts"
+      ],
+      "@tsconfig-test/lib738": [
+        "libs/lib738/src/index.ts"
+      ],
+      "@tsconfig-test/lib739": [
+        "libs/lib739/src/index.ts"
+      ],
+      "@tsconfig-test/lib740": [
+        "libs/lib740/src/index.ts"
+      ],
+      "@tsconfig-test/lib741": [
+        "libs/lib741/src/index.ts"
+      ],
+      "@tsconfig-test/lib742": [
+        "libs/lib742/src/index.ts"
+      ],
+      "@tsconfig-test/lib743": [
+        "libs/lib743/src/index.ts"
+      ],
+      "@tsconfig-test/lib744": [
+        "libs/lib744/src/index.ts"
+      ],
+      "@tsconfig-test/lib745": [
+        "libs/lib745/src/index.ts"
+      ],
+      "@tsconfig-test/lib746": [
+        "libs/lib746/src/index.ts"
+      ],
+      "@tsconfig-test/lib747": [
+        "libs/lib747/src/index.ts"
+      ],
+      "@tsconfig-test/lib748": [
+        "libs/lib748/src/index.ts"
+      ],
+      "@tsconfig-test/lib749": [
+        "libs/lib749/src/index.ts"
+      ],
+      "@tsconfig-test/lib750": [
+        "libs/lib750/src/index.ts"
+      ],
+      "@tsconfig-test/lib751": [
+        "libs/lib751/src/index.ts"
+      ],
+      "@tsconfig-test/lib752": [
+        "libs/lib752/src/index.ts"
+      ],
+      "@tsconfig-test/lib753": [
+        "libs/lib753/src/index.ts"
+      ],
+      "@tsconfig-test/lib754": [
+        "libs/lib754/src/index.ts"
+      ],
+      "@tsconfig-test/lib755": [
+        "libs/lib755/src/index.ts"
+      ],
+      "@tsconfig-test/lib756": [
+        "libs/lib756/src/index.ts"
+      ],
+      "@tsconfig-test/lib757": [
+        "libs/lib757/src/index.ts"
+      ],
+      "@tsconfig-test/lib758": [
+        "libs/lib758/src/index.ts"
+      ],
+      "@tsconfig-test/lib759": [
+        "libs/lib759/src/index.ts"
+      ],
+      "@tsconfig-test/lib760": [
+        "libs/lib760/src/index.ts"
+      ],
+      "@tsconfig-test/lib761": [
+        "libs/lib761/src/index.ts"
+      ],
+      "@tsconfig-test/lib762": [
+        "libs/lib762/src/index.ts"
+      ],
+      "@tsconfig-test/lib763": [
+        "libs/lib763/src/index.ts"
+      ],
+      "@tsconfig-test/lib764": [
+        "libs/lib764/src/index.ts"
+      ],
+      "@tsconfig-test/lib765": [
+        "libs/lib765/src/index.ts"
+      ],
+      "@tsconfig-test/lib766": [
+        "libs/lib766/src/index.ts"
+      ],
+      "@tsconfig-test/lib767": [
+        "libs/lib767/src/index.ts"
+      ],
+      "@tsconfig-test/lib768": [
+        "libs/lib768/src/index.ts"
+      ],
+      "@tsconfig-test/lib769": [
+        "libs/lib769/src/index.ts"
+      ],
+      "@tsconfig-test/lib770": [
+        "libs/lib770/src/index.ts"
+      ],
+      "@tsconfig-test/lib771": [
+        "libs/lib771/src/index.ts"
+      ],
+      "@tsconfig-test/lib772": [
+        "libs/lib772/src/index.ts"
+      ],
+      "@tsconfig-test/lib773": [
+        "libs/lib773/src/index.ts"
+      ],
+      "@tsconfig-test/lib774": [
+        "libs/lib774/src/index.ts"
+      ],
+      "@tsconfig-test/lib775": [
+        "libs/lib775/src/index.ts"
+      ],
+      "@tsconfig-test/lib776": [
+        "libs/lib776/src/index.ts"
+      ],
+      "@tsconfig-test/lib777": [
+        "libs/lib777/src/index.ts"
+      ],
+      "@tsconfig-test/lib778": [
+        "libs/lib778/src/index.ts"
+      ],
+      "@tsconfig-test/lib779": [
+        "libs/lib779/src/index.ts"
+      ],
+      "@tsconfig-test/lib780": [
+        "libs/lib780/src/index.ts"
+      ],
+      "@tsconfig-test/lib781": [
+        "libs/lib781/src/index.ts"
+      ],
+      "@tsconfig-test/lib782": [
+        "libs/lib782/src/index.ts"
+      ],
+      "@tsconfig-test/lib783": [
+        "libs/lib783/src/index.ts"
+      ],
+      "@tsconfig-test/lib784": [
+        "libs/lib784/src/index.ts"
+      ],
+      "@tsconfig-test/lib785": [
+        "libs/lib785/src/index.ts"
+      ],
+      "@tsconfig-test/lib786": [
+        "libs/lib786/src/index.ts"
+      ],
+      "@tsconfig-test/lib787": [
+        "libs/lib787/src/index.ts"
+      ],
+      "@tsconfig-test/lib788": [
+        "libs/lib788/src/index.ts"
+      ],
+      "@tsconfig-test/lib789": [
+        "libs/lib789/src/index.ts"
+      ],
+      "@tsconfig-test/lib790": [
+        "libs/lib790/src/index.ts"
+      ],
+      "@tsconfig-test/lib791": [
+        "libs/lib791/src/index.ts"
+      ],
+      "@tsconfig-test/lib792": [
+        "libs/lib792/src/index.ts"
+      ],
+      "@tsconfig-test/lib793": [
+        "libs/lib793/src/index.ts"
+      ],
+      "@tsconfig-test/lib794": [
+        "libs/lib794/src/index.ts"
+      ],
+      "@tsconfig-test/lib795": [
+        "libs/lib795/src/index.ts"
+      ],
+      "@tsconfig-test/lib796": [
+        "libs/lib796/src/index.ts"
+      ],
+      "@tsconfig-test/lib797": [
+        "libs/lib797/src/index.ts"
+      ],
+      "@tsconfig-test/lib798": [
+        "libs/lib798/src/index.ts"
+      ],
+      "@tsconfig-test/lib799": [
+        "libs/lib799/src/index.ts"
+      ],
+      "@tsconfig-test/lib800": [
+        "libs/lib800/src/index.ts"
+      ],
+      "@tsconfig-test/lib801": [
+        "libs/lib801/src/index.ts"
+      ],
+      "@tsconfig-test/lib802": [
+        "libs/lib802/src/index.ts"
+      ],
+      "@tsconfig-test/lib803": [
+        "libs/lib803/src/index.ts"
+      ],
+      "@tsconfig-test/lib804": [
+        "libs/lib804/src/index.ts"
+      ],
+      "@tsconfig-test/lib805": [
+        "libs/lib805/src/index.ts"
+      ],
+      "@tsconfig-test/lib806": [
+        "libs/lib806/src/index.ts"
+      ],
+      "@tsconfig-test/lib807": [
+        "libs/lib807/src/index.ts"
+      ],
+      "@tsconfig-test/lib808": [
+        "libs/lib808/src/index.ts"
+      ],
+      "@tsconfig-test/lib809": [
+        "libs/lib809/src/index.ts"
+      ],
+      "@tsconfig-test/lib810": [
+        "libs/lib810/src/index.ts"
+      ],
+      "@tsconfig-test/lib811": [
+        "libs/lib811/src/index.ts"
+      ],
+      "@tsconfig-test/lib812": [
+        "libs/lib812/src/index.ts"
+      ],
+      "@tsconfig-test/lib813": [
+        "libs/lib813/src/index.ts"
+      ],
+      "@tsconfig-test/lib814": [
+        "libs/lib814/src/index.ts"
+      ],
+      "@tsconfig-test/lib815": [
+        "libs/lib815/src/index.ts"
+      ],
+      "@tsconfig-test/lib816": [
+        "libs/lib816/src/index.ts"
+      ],
+      "@tsconfig-test/lib817": [
+        "libs/lib817/src/index.ts"
+      ],
+      "@tsconfig-test/lib818": [
+        "libs/lib818/src/index.ts"
+      ],
+      "@tsconfig-test/lib819": [
+        "libs/lib819/src/index.ts"
+      ],
+      "@tsconfig-test/lib820": [
+        "libs/lib820/src/index.ts"
+      ],
+      "@tsconfig-test/lib821": [
+        "libs/lib821/src/index.ts"
+      ],
+      "@tsconfig-test/lib822": [
+        "libs/lib822/src/index.ts"
+      ],
+      "@tsconfig-test/lib823": [
+        "libs/lib823/src/index.ts"
+      ],
+      "@tsconfig-test/lib824": [
+        "libs/lib824/src/index.ts"
+      ],
+      "@tsconfig-test/lib825": [
+        "libs/lib825/src/index.ts"
+      ],
+      "@tsconfig-test/lib826": [
+        "libs/lib826/src/index.ts"
+      ],
+      "@tsconfig-test/lib827": [
+        "libs/lib827/src/index.ts"
+      ],
+      "@tsconfig-test/lib828": [
+        "libs/lib828/src/index.ts"
+      ],
+      "@tsconfig-test/lib829": [
+        "libs/lib829/src/index.ts"
+      ],
+      "@tsconfig-test/lib830": [
+        "libs/lib830/src/index.ts"
+      ],
+      "@tsconfig-test/lib831": [
+        "libs/lib831/src/index.ts"
+      ],
+      "@tsconfig-test/lib832": [
+        "libs/lib832/src/index.ts"
+      ],
+      "@tsconfig-test/lib833": [
+        "libs/lib833/src/index.ts"
+      ],
+      "@tsconfig-test/lib834": [
+        "libs/lib834/src/index.ts"
+      ],
+      "@tsconfig-test/lib835": [
+        "libs/lib835/src/index.ts"
+      ],
+      "@tsconfig-test/lib836": [
+        "libs/lib836/src/index.ts"
+      ],
+      "@tsconfig-test/lib837": [
+        "libs/lib837/src/index.ts"
+      ],
+      "@tsconfig-test/lib838": [
+        "libs/lib838/src/index.ts"
+      ],
+      "@tsconfig-test/lib839": [
+        "libs/lib839/src/index.ts"
+      ],
+      "@tsconfig-test/lib840": [
+        "libs/lib840/src/index.ts"
+      ],
+      "@tsconfig-test/lib841": [
+        "libs/lib841/src/index.ts"
+      ],
+      "@tsconfig-test/lib842": [
+        "libs/lib842/src/index.ts"
+      ],
+      "@tsconfig-test/lib843": [
+        "libs/lib843/src/index.ts"
+      ],
+      "@tsconfig-test/lib844": [
+        "libs/lib844/src/index.ts"
+      ],
+      "@tsconfig-test/lib845": [
+        "libs/lib845/src/index.ts"
+      ],
+      "@tsconfig-test/lib846": [
+        "libs/lib846/src/index.ts"
+      ],
+      "@tsconfig-test/lib847": [
+        "libs/lib847/src/index.ts"
+      ],
+      "@tsconfig-test/lib848": [
+        "libs/lib848/src/index.ts"
+      ],
+      "@tsconfig-test/lib849": [
+        "libs/lib849/src/index.ts"
+      ],
+      "@tsconfig-test/lib850": [
+        "libs/lib850/src/index.ts"
+      ],
+      "@tsconfig-test/lib851": [
+        "libs/lib851/src/index.ts"
+      ],
+      "@tsconfig-test/lib852": [
+        "libs/lib852/src/index.ts"
+      ],
+      "@tsconfig-test/lib853": [
+        "libs/lib853/src/index.ts"
+      ],
+      "@tsconfig-test/lib854": [
+        "libs/lib854/src/index.ts"
+      ],
+      "@tsconfig-test/lib855": [
+        "libs/lib855/src/index.ts"
+      ],
+      "@tsconfig-test/lib856": [
+        "libs/lib856/src/index.ts"
+      ],
+      "@tsconfig-test/lib857": [
+        "libs/lib857/src/index.ts"
+      ],
+      "@tsconfig-test/lib858": [
+        "libs/lib858/src/index.ts"
+      ],
+      "@tsconfig-test/lib859": [
+        "libs/lib859/src/index.ts"
+      ],
+      "@tsconfig-test/lib860": [
+        "libs/lib860/src/index.ts"
+      ],
+      "@tsconfig-test/lib861": [
+        "libs/lib861/src/index.ts"
+      ],
+      "@tsconfig-test/lib862": [
+        "libs/lib862/src/index.ts"
+      ],
+      "@tsconfig-test/lib863": [
+        "libs/lib863/src/index.ts"
+      ],
+      "@tsconfig-test/lib864": [
+        "libs/lib864/src/index.ts"
+      ],
+      "@tsconfig-test/lib865": [
+        "libs/lib865/src/index.ts"
+      ],
+      "@tsconfig-test/lib866": [
+        "libs/lib866/src/index.ts"
+      ],
+      "@tsconfig-test/lib867": [
+        "libs/lib867/src/index.ts"
+      ],
+      "@tsconfig-test/lib868": [
+        "libs/lib868/src/index.ts"
+      ],
+      "@tsconfig-test/lib869": [
+        "libs/lib869/src/index.ts"
+      ],
+      "@tsconfig-test/lib870": [
+        "libs/lib870/src/index.ts"
+      ],
+      "@tsconfig-test/lib871": [
+        "libs/lib871/src/index.ts"
+      ],
+      "@tsconfig-test/lib872": [
+        "libs/lib872/src/index.ts"
+      ],
+      "@tsconfig-test/lib873": [
+        "libs/lib873/src/index.ts"
+      ],
+      "@tsconfig-test/lib874": [
+        "libs/lib874/src/index.ts"
+      ],
+      "@tsconfig-test/lib875": [
+        "libs/lib875/src/index.ts"
+      ],
+      "@tsconfig-test/lib876": [
+        "libs/lib876/src/index.ts"
+      ],
+      "@tsconfig-test/lib877": [
+        "libs/lib877/src/index.ts"
+      ],
+      "@tsconfig-test/lib878": [
+        "libs/lib878/src/index.ts"
+      ],
+      "@tsconfig-test/lib879": [
+        "libs/lib879/src/index.ts"
+      ],
+      "@tsconfig-test/lib880": [
+        "libs/lib880/src/index.ts"
+      ],
+      "@tsconfig-test/lib881": [
+        "libs/lib881/src/index.ts"
+      ],
+      "@tsconfig-test/lib882": [
+        "libs/lib882/src/index.ts"
+      ],
+      "@tsconfig-test/lib883": [
+        "libs/lib883/src/index.ts"
+      ],
+      "@tsconfig-test/lib884": [
+        "libs/lib884/src/index.ts"
+      ],
+      "@tsconfig-test/lib885": [
+        "libs/lib885/src/index.ts"
+      ],
+      "@tsconfig-test/lib886": [
+        "libs/lib886/src/index.ts"
+      ],
+      "@tsconfig-test/lib887": [
+        "libs/lib887/src/index.ts"
+      ],
+      "@tsconfig-test/lib888": [
+        "libs/lib888/src/index.ts"
+      ],
+      "@tsconfig-test/lib889": [
+        "libs/lib889/src/index.ts"
+      ],
+      "@tsconfig-test/lib890": [
+        "libs/lib890/src/index.ts"
+      ],
+      "@tsconfig-test/lib891": [
+        "libs/lib891/src/index.ts"
+      ],
+      "@tsconfig-test/lib892": [
+        "libs/lib892/src/index.ts"
+      ],
+      "@tsconfig-test/lib893": [
+        "libs/lib893/src/index.ts"
+      ],
+      "@tsconfig-test/lib894": [
+        "libs/lib894/src/index.ts"
+      ],
+      "@tsconfig-test/lib895": [
+        "libs/lib895/src/index.ts"
+      ],
+      "@tsconfig-test/lib896": [
+        "libs/lib896/src/index.ts"
+      ],
+      "@tsconfig-test/lib897": [
+        "libs/lib897/src/index.ts"
+      ],
+      "@tsconfig-test/lib898": [
+        "libs/lib898/src/index.ts"
+      ],
+      "@tsconfig-test/lib899": [
+        "libs/lib899/src/index.ts"
+      ],
+      "@tsconfig-test/lib900": [
+        "libs/lib900/src/index.ts"
+      ],
+      "@tsconfig-test/lib901": [
+        "libs/lib901/src/index.ts"
+      ],
+      "@tsconfig-test/lib902": [
+        "libs/lib902/src/index.ts"
+      ],
+      "@tsconfig-test/lib903": [
+        "libs/lib903/src/index.ts"
+      ],
+      "@tsconfig-test/lib904": [
+        "libs/lib904/src/index.ts"
+      ],
+      "@tsconfig-test/lib905": [
+        "libs/lib905/src/index.ts"
+      ],
+      "@tsconfig-test/lib906": [
+        "libs/lib906/src/index.ts"
+      ],
+      "@tsconfig-test/lib907": [
+        "libs/lib907/src/index.ts"
+      ],
+      "@tsconfig-test/lib908": [
+        "libs/lib908/src/index.ts"
+      ],
+      "@tsconfig-test/lib909": [
+        "libs/lib909/src/index.ts"
+      ],
+      "@tsconfig-test/lib910": [
+        "libs/lib910/src/index.ts"
+      ],
+      "@tsconfig-test/lib911": [
+        "libs/lib911/src/index.ts"
+      ],
+      "@tsconfig-test/lib912": [
+        "libs/lib912/src/index.ts"
+      ],
+      "@tsconfig-test/lib913": [
+        "libs/lib913/src/index.ts"
+      ],
+      "@tsconfig-test/lib914": [
+        "libs/lib914/src/index.ts"
+      ],
+      "@tsconfig-test/lib915": [
+        "libs/lib915/src/index.ts"
+      ],
+      "@tsconfig-test/lib916": [
+        "libs/lib916/src/index.ts"
+      ],
+      "@tsconfig-test/lib917": [
+        "libs/lib917/src/index.ts"
+      ],
+      "@tsconfig-test/lib918": [
+        "libs/lib918/src/index.ts"
+      ],
+      "@tsconfig-test/lib919": [
+        "libs/lib919/src/index.ts"
+      ],
+      "@tsconfig-test/lib920": [
+        "libs/lib920/src/index.ts"
+      ],
+      "@tsconfig-test/lib921": [
+        "libs/lib921/src/index.ts"
+      ],
+      "@tsconfig-test/lib922": [
+        "libs/lib922/src/index.ts"
+      ],
+      "@tsconfig-test/lib923": [
+        "libs/lib923/src/index.ts"
+      ],
+      "@tsconfig-test/lib924": [
+        "libs/lib924/src/index.ts"
+      ],
+      "@tsconfig-test/lib925": [
+        "libs/lib925/src/index.ts"
+      ],
+      "@tsconfig-test/lib926": [
+        "libs/lib926/src/index.ts"
+      ],
+      "@tsconfig-test/lib927": [
+        "libs/lib927/src/index.ts"
+      ],
+      "@tsconfig-test/lib928": [
+        "libs/lib928/src/index.ts"
+      ],
+      "@tsconfig-test/lib929": [
+        "libs/lib929/src/index.ts"
+      ],
+      "@tsconfig-test/lib930": [
+        "libs/lib930/src/index.ts"
+      ],
+      "@tsconfig-test/lib931": [
+        "libs/lib931/src/index.ts"
+      ],
+      "@tsconfig-test/lib932": [
+        "libs/lib932/src/index.ts"
+      ],
+      "@tsconfig-test/lib933": [
+        "libs/lib933/src/index.ts"
+      ],
+      "@tsconfig-test/lib934": [
+        "libs/lib934/src/index.ts"
+      ],
+      "@tsconfig-test/lib935": [
+        "libs/lib935/src/index.ts"
+      ],
+      "@tsconfig-test/lib936": [
+        "libs/lib936/src/index.ts"
+      ],
+      "@tsconfig-test/lib937": [
+        "libs/lib937/src/index.ts"
+      ],
+      "@tsconfig-test/lib938": [
+        "libs/lib938/src/index.ts"
+      ],
+      "@tsconfig-test/lib939": [
+        "libs/lib939/src/index.ts"
+      ],
+      "@tsconfig-test/lib940": [
+        "libs/lib940/src/index.ts"
+      ],
+      "@tsconfig-test/lib941": [
+        "libs/lib941/src/index.ts"
+      ],
+      "@tsconfig-test/lib942": [
+        "libs/lib942/src/index.ts"
+      ],
+      "@tsconfig-test/lib943": [
+        "libs/lib943/src/index.ts"
+      ],
+      "@tsconfig-test/lib944": [
+        "libs/lib944/src/index.ts"
+      ],
+      "@tsconfig-test/lib945": [
+        "libs/lib945/src/index.ts"
+      ],
+      "@tsconfig-test/lib946": [
+        "libs/lib946/src/index.ts"
+      ],
+      "@tsconfig-test/lib947": [
+        "libs/lib947/src/index.ts"
+      ],
+      "@tsconfig-test/lib948": [
+        "libs/lib948/src/index.ts"
+      ],
+      "@tsconfig-test/lib949": [
+        "libs/lib949/src/index.ts"
+      ],
+      "@tsconfig-test/lib950": [
+        "libs/lib950/src/index.ts"
+      ],
+      "@tsconfig-test/lib951": [
+        "libs/lib951/src/index.ts"
+      ],
+      "@tsconfig-test/lib952": [
+        "libs/lib952/src/index.ts"
+      ],
+      "@tsconfig-test/lib953": [
+        "libs/lib953/src/index.ts"
+      ],
+      "@tsconfig-test/lib954": [
+        "libs/lib954/src/index.ts"
+      ],
+      "@tsconfig-test/lib955": [
+        "libs/lib955/src/index.ts"
+      ],
+      "@tsconfig-test/lib956": [
+        "libs/lib956/src/index.ts"
+      ],
+      "@tsconfig-test/lib957": [
+        "libs/lib957/src/index.ts"
+      ],
+      "@tsconfig-test/lib958": [
+        "libs/lib958/src/index.ts"
+      ],
+      "@tsconfig-test/lib959": [
+        "libs/lib959/src/index.ts"
+      ],
+      "@tsconfig-test/lib960": [
+        "libs/lib960/src/index.ts"
+      ],
+      "@tsconfig-test/lib961": [
+        "libs/lib961/src/index.ts"
+      ],
+      "@tsconfig-test/lib962": [
+        "libs/lib962/src/index.ts"
+      ],
+      "@tsconfig-test/lib963": [
+        "libs/lib963/src/index.ts"
+      ],
+      "@tsconfig-test/lib964": [
+        "libs/lib964/src/index.ts"
+      ],
+      "@tsconfig-test/lib965": [
+        "libs/lib965/src/index.ts"
+      ],
+      "@tsconfig-test/lib966": [
+        "libs/lib966/src/index.ts"
+      ],
+      "@tsconfig-test/lib967": [
+        "libs/lib967/src/index.ts"
+      ],
+      "@tsconfig-test/lib968": [
+        "libs/lib968/src/index.ts"
+      ],
+      "@tsconfig-test/lib969": [
+        "libs/lib969/src/index.ts"
+      ],
+      "@tsconfig-test/lib970": [
+        "libs/lib970/src/index.ts"
+      ],
+      "@tsconfig-test/lib971": [
+        "libs/lib971/src/index.ts"
+      ],
+      "@tsconfig-test/lib972": [
+        "libs/lib972/src/index.ts"
+      ],
+      "@tsconfig-test/lib973": [
+        "libs/lib973/src/index.ts"
+      ],
+      "@tsconfig-test/lib974": [
+        "libs/lib974/src/index.ts"
+      ],
+      "@tsconfig-test/lib975": [
+        "libs/lib975/src/index.ts"
+      ],
+      "@tsconfig-test/lib976": [
+        "libs/lib976/src/index.ts"
+      ],
+      "@tsconfig-test/lib977": [
+        "libs/lib977/src/index.ts"
+      ],
+      "@tsconfig-test/lib978": [
+        "libs/lib978/src/index.ts"
+      ],
+      "@tsconfig-test/lib979": [
+        "libs/lib979/src/index.ts"
+      ],
+      "@tsconfig-test/lib980": [
+        "libs/lib980/src/index.ts"
+      ],
+      "@tsconfig-test/lib981": [
+        "libs/lib981/src/index.ts"
+      ],
+      "@tsconfig-test/lib982": [
+        "libs/lib982/src/index.ts"
+      ],
+      "@tsconfig-test/lib983": [
+        "libs/lib983/src/index.ts"
+      ],
+      "@tsconfig-test/lib984": [
+        "libs/lib984/src/index.ts"
+      ],
+      "@tsconfig-test/lib985": [
+        "libs/lib985/src/index.ts"
+      ],
+      "@tsconfig-test/lib986": [
+        "libs/lib986/src/index.ts"
+      ],
+      "@tsconfig-test/lib987": [
+        "libs/lib987/src/index.ts"
+      ],
+      "@tsconfig-test/lib988": [
+        "libs/lib988/src/index.ts"
+      ],
+      "@tsconfig-test/lib989": [
+        "libs/lib989/src/index.ts"
+      ],
+      "@tsconfig-test/lib990": [
+        "libs/lib990/src/index.ts"
+      ],
+      "@tsconfig-test/lib991": [
+        "libs/lib991/src/index.ts"
+      ],
+      "@tsconfig-test/lib992": [
+        "libs/lib992/src/index.ts"
+      ],
+      "@tsconfig-test/lib993": [
+        "libs/lib993/src/index.ts"
+      ],
+      "@tsconfig-test/lib994": [
+        "libs/lib994/src/index.ts"
+      ],
+      "@tsconfig-test/lib995": [
+        "libs/lib995/src/index.ts"
+      ],
+      "@tsconfig-test/lib996": [
+        "libs/lib996/src/index.ts"
+      ],
+      "@tsconfig-test/lib997": [
+        "libs/lib997/src/index.ts"
+      ],
+      "@tsconfig-test/lib998": [
+        "libs/lib998/src/index.ts"
+      ],
+      "@tsconfig-test/lib999": [
+        "libs/lib999/src/index.ts"
+      ]
+    }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
