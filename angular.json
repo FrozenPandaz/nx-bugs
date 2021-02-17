@@ -39,6 +39,13 @@
       "sourceRoot": "apps/app1/src",
       "prefix": "angular-builder-test",
       "architect": {
+        "echo": {
+          "builder": ".:command",
+          "options": {
+            "command": "echo",
+            "args": ["Hello World"]
+          }
+        },
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {

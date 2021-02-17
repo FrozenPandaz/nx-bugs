@@ -12,7 +12,9 @@ dependencies:
   tslib: 2.1.0
   zone.js: 0.10.3
 devDependencies:
+  '@angular-devkit/architect': 0.1102.1
   '@angular-devkit/build-angular': 0.1100.7_7d8a2b71726d84c1fd0111c25c3c339c
+  '@angular-devkit/core': 11.2.1
   '@angular-eslint/eslint-plugin': 1.0.0_eslint@7.10.0+typescript@4.0.7
   '@angular-eslint/eslint-plugin-template': 1.0.0_e16362e47bb9cf89c1b7c7b9b0269baa
   '@angular-eslint/template-parser': 1.0.0_827d9b7a18ef5852d38e0470c404020d
@@ -53,6 +55,17 @@ packages:
       yarn: '>= 1.13.0'
     resolution:
       integrity: sha512-b2zv2yiRbdhJ7hJfZsAvGYcqgh2DVtc7gRIPo1eDPvOAKrenmZ4zo/v0PRYScrTsPzqmoCokNA5nIwufwUEnuA==
+  /@angular-devkit/architect/0.1102.1:
+    dependencies:
+      '@angular-devkit/core': 11.2.1
+      rxjs: 6.6.3
+    dev: true
+    engines:
+      node: '>= 10.13.0'
+      npm: ^6.11.0
+      yarn: '>= 1.13.0'
+    resolution:
+      integrity: sha512-s7CxUANGssLYL0KNdNUjXKjtzPjxnAMW9s7H/wzYuFqXVq/DbHvIMAEQW4x7XD5sD8zTqcVR8QAL6ZVSYHppVw==
   /@angular-devkit/build-angular/0.1100.7_7d8a2b71726d84c1fd0111c25c3c339c:
     dependencies:
       '@angular-devkit/architect': 0.1100.7
@@ -197,6 +210,20 @@ packages:
       yarn: '>= 1.13.0'
     resolution:
       integrity: sha512-1GKnIT++YSUHpzzRx9QC0+8yOw4wy+ZpiJVDlroPSeK4FGrTCJqJKenkfRjVFRFOSrzTiJds+IU6kI4+bFbw9g==
+  /@angular-devkit/core/11.2.1:
+    dependencies:
+      ajv: 6.12.6
+      fast-json-stable-stringify: 2.1.0
+      magic-string: 0.25.7
+      rxjs: 6.6.3
+      source-map: 0.7.3
+    dev: true
+    engines:
+      node: '>= 10.13.0'
+      npm: ^6.11.0
+      yarn: '>= 1.13.0'
+    resolution:
+      integrity: sha512-CPFQn+NNC4x28X/STwmwmWge127iY9dsKuXeIV8OCSTOQiY4odOTYigP19AglXyK4e9DG/0JKxej/3CeUYx6Tg==
   /@angular-devkit/schematics/11.0.7:
     dependencies:
       '@angular-devkit/core': 11.0.7
@@ -12485,7 +12512,9 @@ packages:
     resolution:
       integrity: sha512-LXVLVEq0NNOqK/fLJo3d0kfzd4sxwn2/h67/02pjCjfKDxgx1i9QqpvtHD8CrBnSSwMw5+dy11O7FRX5mkO7Cg==
 specifiers:
+  '@angular-devkit/architect': ^0.1102.1
   '@angular-devkit/build-angular': ~0.1100.1
+  '@angular-devkit/core': ^11.2.1
   '@angular-eslint/eslint-plugin': ~1.0.0
   '@angular-eslint/eslint-plugin-template': ~1.0.0
   '@angular-eslint/template-parser': ~1.0.0
