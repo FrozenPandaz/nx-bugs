@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'app1',
+  displayName: 'lib2',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -8,12 +8,10 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/apps/app1',
+  coverageDirectory: '../../coverage/libs/lib2',
   transform: {
     '^.+\\.(ts|js|html)$': 'jest-preset-angular',
-    '^.+\\.(mjs)$': 'jest-preset-angular',
-    // '^.+\\.(mjs)$': 'babel-jest',
-    // '^.+\\.(mjs)$': '@swc/jest',
+    '^.+\\.(mjs)$': 'babel-jest',
   },
   transformIgnorePatterns: ['node_modules/(?!@angular)'],
   snapshotSerializers: [
