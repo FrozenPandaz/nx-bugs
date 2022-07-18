@@ -1,0 +1,7 @@
+{
+  "name": "@project-root-output-test/a",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "echo a > a.txt"
+  }
+}
