@@ -2,7 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "app1": "apps/app1",
-    "app1-e2e": "apps/app1-e2e"
+    "my-app": "apps/my-app",
+    "my-app-e2e": "apps/my-app-e2e",
+    "shared-assets": "libs/shared-assets"
   }
 }
