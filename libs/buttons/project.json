@@ -1,0 +1,47 @@
+{
+  "name": "buttons",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/buttons/src",
+  "prefix": "inc-buildable-test",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/buttons/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/buttons/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/buttons/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/buttons/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/buttons/**/*.ts", "libs/buttons/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}

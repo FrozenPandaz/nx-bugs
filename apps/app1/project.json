@@ -6,7 +6,7 @@
   "prefix": "inc-buildable-test",
   "targets": {
     "build": {
-      "executor": "@angular-devkit/build-angular:browser",
+      "executor": "@nrwl/angular:webpack-browser",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/app1",
@@ -16,6 +16,7 @@
         "tsConfig": "apps/app1/tsconfig.app.json",
         "assets": ["apps/app1/src/favicon.ico", "apps/app1/src/assets"],
         "styles": ["apps/app1/src/styles.css"],
+        "buildLibsFromSource": false,
         "scripts": []
       },
       "configurations": {
@@ -42,17 +43,16 @@
           "sourceMap": true,
           "namedChunks": true
         }
-      },
-      "defaultConfiguration": "production"
+      }
     },
     "serve": {
-      "executor": "@angular-devkit/build-angular:dev-server",
+      "executor": "@nrwl/angular:webpack-dev-server",
       "configurations": {
         "production": {
           "browserTarget": "app1:build:production"
         },
         "development": {
-          "browserTarget": "app1:build:development"
+          "browserTarget": "app1:build"
         }
       },
       "defaultConfiguration": "development"
