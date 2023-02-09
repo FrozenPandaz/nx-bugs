@@ -1153,13 +1153,17 @@ export async function expectJestTestsToPass(
 }
 
 export function getStrippedEnvironmentVariables() {
-  const strippedVariables = new Set(['NX_TASK_TARGET_PROJECT']);
   return Object.fromEntries(
-    Object.entries(process.env).filter(
-      ([key, value]) =>
-        !strippedVariables.has(key) ||
-        !key.startsWith('NX_') ||
-        key.startsWith('NX_E2E_')
-    )
+    Object.entries(process.env).filter(([key, value]) => {
+      if (key.startsWith('NX_E2E_')) {
+        return true;
+      }
+
+      if (key.startsWith('NX_')) {
+        return false;
+      }
+
+      return true;
+    })
   );
 }
