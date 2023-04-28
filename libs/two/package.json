@@ -1,0 +1,7 @@
+{
+  "name": "@ordered-tasks/two",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "node index.js"
+  }
+}
