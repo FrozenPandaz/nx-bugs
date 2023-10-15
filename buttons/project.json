@@ -1,0 +1,24 @@
+{
+  "name": "buttons",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "buttons/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["buttons/**/*.{ts,tsx,js,jsx,vue}"]
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../coverage/buttons"
+      }
+    }
+  }
+}
