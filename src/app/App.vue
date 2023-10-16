@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import NxWelcome from './NxWelcome.vue';
-import Buttons from "buttons";
+import { ButtonsButtons } from "buttons";
 </script>
 
 <template>
-<Buttons></Buttons>
+  <ButtonsButtons></ButtonsButtons>
   <NxWelcome title="vue-test" />
 </template>
