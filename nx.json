@@ -72,5 +72,6 @@
       }
     }
   ],
-  "defaultProject": "test"
+  "defaultProject": "test",
+  "nxCloudAccessToken": "MmVkMTZiNWMtMDYwMy00MjczLThhZmMtYjdiMGU4YzM4MDBlfHJlYWQtd3JpdGU="
 }
