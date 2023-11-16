@@ -15,12 +15,14 @@ permissions:
 jobs:
   main:
     name: Nx Cloud - Main Job
-    uses: nrwl/ci/.github/workflows/nx-cloud-main.yml@v0.13.1
+    uses: nrwl/ci/.github/workflows/nx-cloud-main.yml@v0.14.0
     with:
-      main-branch-name: main
+      pnpm-version: 8.10.3
+      main-branch-name: cypress-test
       number-of-agents: 8
       init-commands: |
         pnpm exec nx-cloud start-ci-run --stop-agents-after="build" --agent-count=8
+        pnpm exec cypress install
       parallel-commands: |
         pnpm exec nx-cloud record -- pnpm exec nx format:check
       parallel-commands-on-agents: |
@@ -28,6 +30,10 @@ jobs:
 
   agents:
     name: Nx Cloud - Agents
-    uses: nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.13.1
+    uses: nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.14.0
     with:
+      pnpm-version: 8.10.3
       number-of-agents: 8
+      install-commands: |
+        pnpm i
+        pnpm exec cypress install
