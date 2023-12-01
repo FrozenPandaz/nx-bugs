@@ -37,8 +37,12 @@
       "inputs": ["default", "^production"]
     }
   },
+  "affected": {
+    "defaultBase": "cypress-test"
+  },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "cache": [],
     "production": [
       "default",
       "!{projectRoot}/cypress/**/*",
