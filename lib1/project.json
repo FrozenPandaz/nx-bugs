@@ -1,0 +1,29 @@
+{
+  "name": "lib1",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "lib1/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "lib1/jest.config.ts"
+      }
+    },
+    "component-test": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "lib1/cypress.config.ts",
+        "testingType": "component",
+        "devServerTarget": "test:build",
+        "skipServe": true
+      }
+    }
+  }
+}

@@ -31,6 +31,10 @@
           "codeCoverage": true
         }
       }
+    },
+    "component-test": {
+      "cache": true,
+      "inputs": ["default", "^production"]
     }
   },
   "namedInputs": {
@@ -63,9 +67,11 @@
       },
       "library": {
         "style": "css",
-        "linter": "eslint"
+        "linter": "eslint",
+        "unitTestRunner": "jest"
       }
     }
   },
-  "defaultProject": "test"
+  "defaultProject": "test",
+  "nxCloudAccessToken": "NWE2ZTQ5N2MtOTk2ZS00NjUxLWJkYTMtNTZiN2RlMjY3ZWQwfHJlYWQtd3JpdGU="
 }
