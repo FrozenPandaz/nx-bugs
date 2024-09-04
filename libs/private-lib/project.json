@@ -1,0 +1,26 @@
+{
+  "name": "private-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/private-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/private-lib",
+        "main": "libs/private-lib/src/index.ts",
+        "tsConfig": "libs/private-lib/tsconfig.lib.json",
+        "assets": ["libs/private-lib/*.md"]
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "reportsDirectory": "../../coverage/libs/private-lib"
+      }
+    }
+  }
+}

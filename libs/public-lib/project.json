@@ -1,0 +1,26 @@
+{
+  "name": "public-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/public-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/public-lib",
+        "main": "libs/public-lib/src/index.ts",
+        "tsConfig": "libs/public-lib/tsconfig.lib.json",
+        "assets": ["libs/public-lib/*.md"]
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "reportsDirectory": "../../coverage/libs/public-lib"
+      }
+    }
+  }
+}
