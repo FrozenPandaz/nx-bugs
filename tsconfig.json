@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
@@ -12,12 +13,7 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@test/private-lib": ["libs/private-lib/src/index.ts"],
-      "@test/public-lib": ["libs/public-lib/src/index.ts"],
-      "@test/source": ["src/index.ts"]
-    }
+    "baseUrl": "."
   },
   "files": [],
   "include": [],

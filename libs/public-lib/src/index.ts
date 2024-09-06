@@ -1,2 +1,2 @@
 export * from './lib/public-lib';
-export * from '@test/private-lib';
+export * from '../../private-lib/src';

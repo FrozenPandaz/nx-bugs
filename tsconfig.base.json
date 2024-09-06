@@ -14,9 +14,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@test/private-lib": ["libs/private-lib/src/index.ts"],
-      "@test/public-lib": ["libs/public-lib/src/index.ts"],
-      "@test/source": ["src/index.ts"]
+      "@test/*": ["libs/*"]
     }
   },
   "files": [],
