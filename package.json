@@ -1,0 +1,25 @@
+{
+  "name": "test-napi-parallel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "."
+  ],
+  "scripts": {
+    "echo": "echo hi",
+    "test": "nx reset && concurrently 'nx echo' 'nx echo' 'nx echo'",
+    "test2": "nx reset && concurrently 'node index.js' 'node index.js' 'node index.js'",
+    "test3": "nx reset && concurrently 'node index2.js' 'node index2.js' 'node index2.js'",
+    "test4": "concurrently 'node index3.js' 'node index3.js' 'node index3.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nx": "^19.8.0"
+  },
+  "dependencies": {
+    "@nx/powerpack-license": "^0.0.2-alpha.3"
+  }
+}
