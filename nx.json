@@ -22,6 +22,25 @@
           "configName": "tsconfig.lib.json"
         }
       }
-    }
+    },
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin",
+    "@test/plugin"
   ]
 }
