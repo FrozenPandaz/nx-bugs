@@ -1,0 +1,19 @@
+diff --git a/src/project-graph/plugins/isolation/plugin-worker.js b/src/project-graph/plugins/isolation/plugin-worker.js
+index 426fcf2bd7250c9d46143286bec609fced01d7d4..5650911885d641481dd01f6aeea5da9dcd7ad123 100644
+--- a/src/project-graph/plugins/isolation/plugin-worker.js
++++ b/src/project-graph/plugins/isolation/plugin-worker.js
+@@ -1,11 +1,14 @@
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
++require('time-require');
+ const messaging_1 = require("./messaging");
+ const serializable_error_1 = require("../../../utils/serializable-error");
+ const consume_messages_from_socket_1 = require("../../../utils/consume-messages-from-socket");
+ const net_1 = require("net");
+ const fs_1 = require("fs");
++console.time('Requiring loader.ts in plugin worker');
+ const loader_1 = require("../loader");
++console.timeEnd('Requiring loader.ts in plugin worker');
+ if (process.env.NX_PERF_LOGGING === 'true') {
+     require('../../../utils/perf-logging');
+ }
