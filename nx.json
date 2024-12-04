@@ -35,7 +35,13 @@
           "targetName": "build",
           "configName": "tsconfig.lib.json"
         }
-      }
+      },
+      "exclude": [
+        "apps/frontend/shared/header/*",
+        "packages/shared/button/*",
+        "apps/frontend/shared/business-logic/*",
+        "packages/shared/hooks/counter/*"
+      ]
     },
     {
       "plugin": "@nx/vite/plugin",
@@ -64,6 +70,13 @@
   "targetDefaults": {
     "e2e-ci--**/*": {
       "dependsOn": ["^build"]
+    }
+  },
+  "generators": {
+    "@nx/react": {
+      "library": {
+        "unitTestRunner": "vitest"
+      }
     }
   }
 }

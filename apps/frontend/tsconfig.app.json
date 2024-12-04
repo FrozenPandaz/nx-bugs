@@ -2,15 +2,8 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "out-tsc/frontend",
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ES2019"
-    ],
-    "types": [
-      "@remix-run/node",
-      "vite/client"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "types": ["@remix-run/node", "vite/client"],
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
@@ -59,5 +52,19 @@
     "eslint.config.js",
     "eslint.config.cjs",
     "eslint.config.mjs"
+  ],
+  "references": [
+    {
+      "path": "../../packages/shared/hooks/counter/tsconfig.lib.json"
+    },
+    {
+      "path": "shared/business-logic/tsconfig.lib.json"
+    },
+    {
+      "path": "shared/header/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shared/button/tsconfig.lib.json"
+    }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "@test/business-logic",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "private": true,
+  "nx": {
+    "sourceRoot": "apps/frontend/shared/business-logic/src",
+    "projectType": "library",
+    "name": "business-logic"
+  }
+}

@@ -8,6 +8,18 @@
     },
     {
       "path": "./apps/frontend"
+    },
+    {
+      "path": "./apps/frontend/shared/header"
+    },
+    {
+      "path": "./packages/shared/button"
+    },
+    {
+      "path": "./apps/frontend/shared/business-logic"
+    },
+    {
+      "path": "./packages/shared/hooks/counter"
     }
   ]
 }

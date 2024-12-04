@@ -4,6 +4,18 @@
   "files": [],
   "references": [
     {
+      "path": "../../packages/shared/hooks/counter"
+    },
+    {
+      "path": "shared/business-logic"
+    },
+    {
+      "path": "shared/header"
+    },
+    {
+      "path": "../../packages/shared/button"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

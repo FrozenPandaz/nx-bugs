@@ -1,0 +1,13 @@
+{
+  "name": "@test/header",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@test/business-logic": "workspace:*"
+  },
+  "nx": {
+    "name": "header",
+    "projectType": "library",
+    "sourceRoot": "apps/frontend/shared/header/src"
+  }
+}

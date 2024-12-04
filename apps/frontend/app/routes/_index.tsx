@@ -1,9 +1,9 @@
-import NxWelcome from '../nx-welcome';
+import JasonPage from '../jason-page';
 
 export default function Index() {
   return (
     <div>
-      <NxWelcome title={'frontend'} />
+      <JasonPage></JasonPage>
     </div>
   );
 }
