@@ -6,9 +6,9 @@ export const createNodesV2 = [
     const a = workspaceRoot;
     noop(a);
 
-    await new Promise(res => {
-      setTimeout(res, 10000);
-    });
+    // await new Promise(res => {
+    //   setTimeout(res, 10000);
+    // });
     return [];
   }
 ];

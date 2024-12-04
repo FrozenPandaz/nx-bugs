@@ -1,7 +1,10 @@
 const { exec } = require("child_process");
 
+
+let i = 1;
 function runNx() {
-    const child = exec('npx nx show projects', {
+    console.log(`Spawning Nx (${i++})`);
+    const child = exec('npx nx show projects --verbose', {
         stdio: 'inherit'
     });
 
