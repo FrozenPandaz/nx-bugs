@@ -1,0 +1,12 @@
+{
+  "name": "test-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "projectType": "application",
+    "sourceRoot": "apps/test-e2e/src",
+    "implicitDependencies": [
+      "@test/test"
+    ]
+  }
+}
