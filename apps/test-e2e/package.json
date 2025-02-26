@@ -7,6 +7,13 @@
     "sourceRoot": "apps/test-e2e/src",
     "implicitDependencies": [
       "@test/test"
-    ]
+    ],
+    "targets": {
+      "e2e": {
+        "continuous": true,
+        "parallelism": true,
+        "dependsOn": ["@test/test:serve"]
+      }
+    }
   }
 }
